@@ -1,0 +1,2 @@
+# InvaHealthDDdescriptors
+Database column descriptors
