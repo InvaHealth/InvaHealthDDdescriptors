@@ -11,6 +11,7 @@ last updated: 2024-10-08
 -   [**InvaPact_Reference_ID**](#invaPact_reference_id)
 -   [**DOI_URL**](#doi_url)
 -   [**Reference_title**](#reference_title)
+-   [**Authors**](#authors)
 
 
 ## Descriptions
@@ -41,4 +42,8 @@ DOI (<a href="https://www.doi.org">digital object identifier</a>) in URL format 
 # **Reference_title**
 
 Title of the reference where the cost entry is reported. As much as possible, this is the original source where the cost was first provided.
+
+# **Authors**
+
+Authors of the reference where the cost entry is reported.
 
