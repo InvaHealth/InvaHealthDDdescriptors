@@ -480,35 +480,40 @@ Complete name and contact details of the expert had deemed the reliability of th
 
 # **Type_Stakeholder**
 
-The general type of stakeholder - a fixed list (Health provider, Individual, Community) from Roiz et al. (2024)
+The general type of stakeholder - a fixed list (e.g., Health provider, Individual, Community) from <a href="https://doi.org/10.1016/j.scitotenv.2024.173054">Roiz et al. (2024)</a>.
 
 # **Stakeholder**
 
-The actual stakeholder. E.g. the state or a company, the boundaries of the community (country, city, friends, ...)
+The actual stakeholder, e.g. the state or a company, the boundaries of the community (country, city, friends, ...).
 
 # **Type_1_of_cost**
 
-The two main types of costs: Damage/Loss or Management (+ Mixed when impossible to separate)
+The two main types of costs:
+- <strong>Damage/Loss</strong>, or
+- <strong>Management</strong>, or
+- <strong>Mixed</strong> when impossible to separate)
 
 # **Type_2_of_cost**
 
-The sub-categories of Type 1, roughly divided into direct and indirect costs, with some specificities depending on the type 1
+The sub-categories of Type 1, roughly divided into <strong>direct</strong> and <strong>indirect</strong> costs, with some specificities depending on Type 1.
 
 # **Type_3_of_cost**
 
-The specific thing that cost money (medicines, tv campaign, name of eradication programme, etc.)
+The specific thing that cost money (e.g., medicines, TV campaign, name of eradication programme, etc.).
 
 # **Unspecified_cost**
 
-Temporary column for other types of costs we may have forgotten - each will become a separate column in the end
+Temporary column for other types of costs we may have forgotten - each will become a separate column in the end.
 
 # **Verbatim_evidence**
 
-Extract from the article evidencing where the information comes from
+Extract from the article evidencing from where the information comes.
 
 # **Fixed_variable**
 
-Indicates if the costs are fixed (constant cost - independent from the abundance of the invasive species or the disease) or variable (depends on the abundance of the invasive species or the disease).
+Indicates if the costs are:
+- <strong>fixed</strong> (constant cost - independent of the abundance of the invasive species or the disease) or
+- <strong>variable</strong> (depends on the abundance of the invasive species or the disease).
 
 # **Period_of_estimation**
 
@@ -516,120 +521,189 @@ If provided, the exact period of time covered by the cost, otherwise the raw for
 
 # **Time_range**
 
-Two options: period if the cost is given for a period exceeding a year; or year if the cost is given yearly or for a period up to one year. Alternatively, we put Unspecified if no information is given or guessable from the source
+Two options: 
+- <strong>period</strong> if the cost is given for a period exceeding a year; or
+- <strong>year</strong> if the cost is given yearly or for a period up to one year. 
+- <strong>unspecified</strong>: if no information is given or guessable from the source
 
 # **Probable_starting_year**
 
-Year in which the cost is known or assumed to have started to occurred. When not explicitly provided by the authors, we mentioned unspecified; in the case of a cost estimate provided for a one-year period straddling two calendar years, we mentioned the latest year of the cost occurrence.
+Year in which the cost is known or assumed to have started to occurred. When not explicitly provided by the authors, indicate <strong>unspecified</strong>; in the case of a cost estimate provided for a one-year period straddling two calendar years, use the latest year of the cost occurrence.
 
 # **Probable_ending_year**
 
-Year in which the cost is known or assumed to have ended. When not explicitly provided by the authors, we mentioned unspecified; in the case of a cost estimate provided for a one-year period straddling two calendar years, we mentioned the latest year of the cost occurrence.
+Year in which the cost is known or assumed to have ended. When not explicitly provided by the authors, indicate <strong>unspecified</strong>; in the case of a cost estimate provided for a one-year period straddling two calendar years, use the latest year of the cost occurrence.
 
 # **Probable_starting_year_adjusted**
 
-Probable starting year and Probable ending year columns where the cells with unspecified information are replaced, as much as possible, by a specific year from educated guesses based on the duration time provided in the original reference (see Period of estimation column). When relevant (e.g. the authors provide a cost that occurs "since/for a well-defined number of years"), we considered the Publication year as a reference for the probable starting/ending year from which we added or subtracted the number of years provided; when vague formulations were used (e.g., early 90s), we still translated them in probable ending/starting year (e.g., 1990–1995); when annual costs were provided, but without clear information on the temporal range, we conservatively considered the year of the cost occurrence (or the Publication year, if not provided) in both columns. When no relevant approximation is feasible, we leave blank in one and/or the other column(s). These columns are those used for obtaining the number of years by which the raw cost estimates are divided to get the cot estimates per year
+<em>Probable_starting_year</em> and <em>Probable_ending_year</em> columns where the cells with unspecified information are replaced, as much as possible, by a specific year from educated guesses based on the duration time provided in the original reference (see <em>Period_of_estimation</em> column). When relevant (e.g., the authors provide a cost that occurs "... since/for a well-defined number of years"), we considered the <em>Publication_year</em> as a reference for the probable starting/ending year from which we added or subtracted the number of years provided. When vague formulations were used (e.g., early 1990s), we still translated them in probable ending/starting year (e.g., 1990–1995). When annual costs were provided, but without clear information on the temporal range, we conservatively considered the year of the cost occurrence (or the <em>Publication_year</em>, if not provided) in both columns. When no relevant approximation is feasible, we leave blank in one and/or the other column(s). These columns are those used for obtaining the number of years by which the raw cost estimates are divided to get the cot estimates per year.
 
 # **Probable_ending_year_adjusted**
 
-Probable starting year and Probable ending year columns where the cells with unspecified information are replaced, as much as possible, by a specific year from educated guesses based on the duration time provided in the original reference (see Period of estimation column). When relevant (e.g. the authors provide a cost that occurs "since/for a well-defined number of years"), we considered the Publication year as a reference for the probable starting/ending year from which we added or subtracted the number of years provided; when vague formulations were used (e.g., early 90s), we still translated them in probable ending/starting year (e.g., 1990–1995); when annual costs were provided, but without clear information on the temporal range, we conservatively considered the year of the cost occurrence (or the Publication year, if not provided) in both columns. When no relevant approximation is feasible, we leave blank in one and/or the other column(s). These columns are those used for obtaining the number of years by which the raw cost estimates are divided to get the cot estimates per year
+<em>Probable_starting_year</em> and <em>Probable_ending_year</em> columns where the cells with unspecified information are replaced, as much as possible, by a specific year from educated guesses based on the duration time provided in the original reference (see <em>Period_of_estimation</em> column). When relevant (e.g., the authors provide a cost that occurs "... since/for a well-defined number of years"), we considered the <em>Publication_year</em> as a reference for the probable starting/ending year from which we added or subtracted the number of years provided. When vague formulations were used (e.g., early 1990s), we still translated them in probable ending/starting year (e.g., 1990–1995). When annual costs were provided, but without clear information on the temporal range, we conservatively considered the year of the cost occurrence (or the <em>Publication_year</em>, if not provided) in both columns. When no relevant approximation is feasible, we leave blank in one and/or the other column(s). These columns are those used for obtaining the number of years by which the raw cost estimates are divided to get the cot estimates per year.
 
 # **Occurrence**
 
-Status of the cost estimate as potentially ongoing (if the cost can be expected to continue over time) or one-time (if the cost was deemed as unlikely to continue)
+Status of the cost estimate as potentially <strong>ongoing</strong> (if the cost can be expected to continue over time) or <strong>one-time</strong> (if the cost was deemed as unlikely to continue).
 
 # **Raw_cost_estimate_original_currency**
 
-Cost estimate directly retrieved from the analyzed reference
+Cost estimate directly retrieved from the analysed reference.
 
 # **Min_Raw_cost_estimate_original_currency**
 
-# **Lower boundary of the Raw cost estimate original currency (if a range of estimates was provided by the authors)
+# **Lower boundary of the <em>Raw_cost_estimate_original_currency</em> (if a range of estimates was provided by the authors).
 
 # **Max_Raw_cost_estimate_original_currency**
 
-Upper boundary of the Raw cost estimate original currency (if a range of estimates was provided by the authors)
+Upper boundary of the <em>Raw_cost_estimate_original_currency</em> (if a range of estimates was provided by the authors).
 
 # **Raw_cost_estimate_2023_USD_exchange_rate**
 
-Raw cost estimate original currency standardised from original Currency and Applicable year to 2017 US$ based on the official market exchange rate (original currency unit per US$) provided by the World Bank Open Data (available at https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960)
+Raw cost estimate in the original currency standardised from original <em>Currency</em> and <em>Applicable_year</em> to 2023 US$ based on the official market exchange rate (original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960">World Bank Open Data</a>.
 
 # **Raw_cost_estimate_2023_USD_PPP**
 
-Raw cost estimate original currency standardized to 2017 US$ based on the official Purchase Power Parity (PPP; original currency unit per US$) provided by the World Bank Open Data (available at https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990) and the Organisation for Economic Cooperation and Development (available at https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm)
+Raw cost estimate in the original currency standardised to 2023 US$ based on the official Purchase Power Parity (PPP; original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990)">World Bank Open Data</a> and the <a href="https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm">Organisation for Economic Cooperation and Development</a>.
 
 # **Cost_estimate_per_year_original_currency**
 
-Raw cost estimate original currency transformed to a cost estimate per year of the Period of estimation, which was obtained by dividing the raw cost estimate by the number of years between the Probable starting year_completed and Probable ending year_completed. Blank cells are those that have no information in at least one of these two previous columns
+Raw cost estimate transformed to a cost estimate per year of the <em>Period_of_estimation</em>, obtained by dividing the <em>Raw_cost_estimate_original_currency</em> by the number of years between the <em>Probable_starting_year_completed</em> and <em>Probable_ending_year_completed</em>. Blank cells are those that have no information in at least one of these two previous columns.
 
 # **Cost_estimate_per_year_2023_USD_exchange_rate**
 
-Cost estimate per year original currency standardized from original Currency and Applicable year to 2017 USD based on the official market exchange rate (original currency unit per US$) provided by the World Bank Open Data (available at https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960). Blank cells are those that have no information in at least one of these two previous columns
+Cost estimate per year standardised from original <em>Currency</em> and <em>Applicable_year</em> to 2023 USD based on the official market exchange rate (original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960">World Bank Open Data</a>. Blank cells are those that have no information in at least one of these two previous columns.
 
 # **Cost_estimate_per_year_2023_USD_PPP**
 
-Cost estimate per year original currency standardized from original Currency and Applicable year to 2017 USD based on Purchase Power Parity (PPP; original currency unit per US$) provided by the World Bank Open Data (available at https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990) and the Organisation for Economic Cooperation and Development (available at https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm). Blank cells are those that have no information in at least one of these two previous column
+Cost estimate per year original currency standardised from original <em>Currency</em> and <em>Applicable_year</em> to 2023 USD based on purchase power parity (PPP; original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990">World Bank Open Data</a> and the <a href="https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm">Organisation for Economic Cooperation and Development</a>. Blank cells are those that have no information in at least one of these two previous column.
 
 # **Currency**
 
-Currency of the Raw cost estimate original currency as extracted in the original reference and standardised (when possible) using internationally recognized ISO 4217 codes (https://www.iso.org/fr/iso-4217-currency-codes.html); 50 currencies are currently recorded in InvaCost: ARS (Argentine peso), AUD (Australian Dollars), CAD (Canadian Dollars), CHF (Swiss Fanc), CLP (Chilean Peso), COL (Colombian Peso), CUP (Cuban Peso), CZK (Czech Crown), DEM (Deutsche Mark), DKK (Danish Krone), ESP (Spanish Peseta), EUR (Euro), FJD (Fijian Dollar), FRF (French Franc), GBP (Pound Sterling), HKD (Hong Kong Dollars), HRK (Croatian Kuna), INR (Indian Rupee), ISK (Icelandic Crown), JPY (Yen), KES (Kenyan Shilling), LKR (Sri Lankan Rupee), LTL (Lithuanian Litas), MAD (Moroccan Dirhams), MGA (Malagasy Ariary), MXN (Mexican Peso), NGN (Naira), NLG (Dutch Guilder), NOK (Norwegian Krone), NZD (New Zealand Dollar), PKR (Pakistani Rupee), PLN (Polish Zoty), REA (Brazilian Real), CNY (Yuan Renminbi), RUB (Russian Ruble), SEK (Swedish Krona), SGD (Singapore Dollar), SOL (Peruvian Sol), TND (Tunisian Dinar), TRY (Turkish Lira), TWD (New Taiwan Dollar), UAH (Ukrainian Hryvnia), USD (United States Dollars), UYU (Uruguay New Peso), XAF ( CFA Franc BEAC), XOF (CFA franc BCEAO), XPF (Pacific Franc), ZAR (South African Rand), ZWL (Zimbabwean Dollar)
+Original currency of the <em>Raw_cost</em> estimate as extracted in the original reference and standardised (when possible) using internationally recognized <a href="https://www.iso.org/fr/iso-4217-currency-codes.html">ISO 4217</a> codes.
+
+Fifty currencies are currently recorded in <em>InvaCost</em>:
+- ARS (Argentine peso), 
+- AUD (Australian Dollars),
+- CAD (Canadian Dollars),
+- CHF (Swiss Fanc),
+- CLP (Chilean Peso),
+- COL (Colombian Peso)
+- CUP (Cuban Peso)
+- CZK (Czech Crown)
+- DEM (Deutsche Mark)
+- DKK (Danish Krone)
+- ESP (Spanish Peseta)
+- EUR (Euro)
+- FJD (Fijian Dollar)
+- FRF (French Franc)
+- GBP (Pound Sterling)
+- HKD (Hong Kong Dollars)
+- HRK (Croatian Kuna)
+- INR (Indian Rupee)
+- ISK (Icelandic Crown)
+- JPY (Yen)
+- KES (Kenyan Shilling)
+- LKR (Sri Lankan Rupee)
+- LTL (Lithuanian Litas)
+- MAD (Moroccan Dirhams)
+- MGA (Malagasy Ariary)
+- MXN (Mexican Peso)
+- NGN (Naira)
+- NLG (Dutch Guilder)
+- NOK (Norwegian Krone)
+- NZD (New Zealand Dollar)
+- PKR (Pakistani Rupee)
+- PLN (Polish Zoty)
+- REA (Brazilian Real)
+- CNY (Yuan Renminbi)
+- RUB (Russian Ruble)
+- SEK (Swedish Krona)
+- SGD (Singapore Dollar)
+- SOL (Peruvian Sol)
+- TND (Tunisian Dinar)
+- TRY (Turkish Lira)
+- TWD (New Taiwan Dollar)
+- UAH (Ukrainian Hryvnia)
+- USD (United States Dollars)
+- UYU (Uruguay New Peso)
+- XAF (CFA Franc BEAC)
+- XOF (CFA Franc BCEAO)
+- XPF (Pacific Franc)
+- ZAR (South African Rand)
+- ZWL (Zimbabwean Dollar)
 
 # **Applicable_year**
 
-Year of the Currency value (not the year of the cost occurrence) considered for the conversion/standardization of the cost estimate
+Year of the <em>Currency</em> value (not the year of the cost occurrence) considered for the conversion/standardization of the cost estimate.
 
 # **Type_of_applicable_year**
 
-Assessment of the applicable year as effective if explicitly stated by the authors or publication year if no explicit information was provided in the reference analyzed
+Assessment of the applicable year as effective if explicitly stated by the authors or publication year if no explicit information was provided in the reference analysed.
 
 # **Implementation**
 
-This states — at the time of the estimation — whether the reported cost was actually observed (i.e., cost actually incurred) or potential (i.e., not incurred but expected cost)
+At the time of the estimation, whether the reported cost was actually observed (i.e., cost <strong>actually</strong> incurred) or <strong>potential</strong> (i.e., not incurred but expected cost)
 
 # **Acquisition_method**
 
-Method used to obtain the cost estimate: report/estimation directly obtained or derived (using inference methods) from field-based information or extrapolation (cost predicted beyond the original spatial and/or temporal observation range from computational modelling)
+Method used to obtain the cost estimate:
+- <strong>report/estimation</strong> directly obtained or derived (using inference methods) from field-based information or
+- <strong>extrapolation</strong> (cost predicted beyond the original spatial and/or temporal observation range from computational modelling)
 
 # **Management_type**
 
-Pre-emergence_management (monetary investments for preventing health issues in an area - including quarantine or border inspection, risk analyses, biosecurity management, etc.), post-emergence_management (money spent for managing health issues in invaded areas - including control, eradication, containment), knowledge funding (money allocated to all actions and operations that could be of interest at all steps of management at pre- and post-emergence stages - including administration, communication, education, research, etc.), or mixed was assigned when costs include at least (and without possibility to disentangle the specific proportion of) two of the previous categories; every management cost (in the Type of cost column) for which the exact nature of cost was not clearly defined was assigned to unspecified. Every entry that has partly or fully associated with damage costs was assigned to NA
+- <strong>pre-emergence_management</strong>: monetary investments for preventing health issues in an area - including quarantine or border inspection, risk analyses, biosecurity management, etc.),
+- <strong>post-emergence_management</strong>: money spent for managing health issues in invaded areas - including control, eradication, containment), knowledge funding (money allocated to all actions and operations that could be of interest at all steps of management at pre- and post-emergence stages - including administration, communication, education, research, etc.), or
+- <strong>mixed</strong>: when costs include at least (and without possibility to disentangle the specific proportion of) two of the previous categories;
+- <strong>unspecified</strong>: every management cost (in the <em>Type_of_cost</em> column) for which the exact nature of cost was not clearly defined 
+- <strong>NA</strong>: every entry that has partly or fully associated with damage costs
 
 # **Method_used_paper**
 
-Method used as described in the paper
+Method used as described in the paper.
 
 # **Method_reliability**
 
-Assessment of the methodological approach used for cost estimation as of (i) high reliability if either provided by officially pre-assessed materials (peer-reviewed articles and official reports) or the estimation method was documented, repeatable and/or traceable if provided by other grey literature, or (ii) low reliability if not
+Assessment of the methodological approach used for cost estimation as:
+- <strong>high</strong> reliability, if either provided by officially pre-assessed materials (peer-reviewed articles and official reports) or the estimation method was documented, repeatable and/or traceable if provided by other grey literature, or
+- <strong>low</strong> reliability if not.
 
-# **ethod_reliability_refined**
+# **Method_reliability_refined**
 
-Assessment of the methodological approach used for cost estimation as of high or low reliability based on the evaluation of the estimation methodology by expert contributors
+Assessment of the methodological approach used for cost estimation as of high or low reliability based on the evaluation of the estimation methodology by expert contributors.
 
 # **Method_reliability_Explanation**
 
-Detailed explanation why a particular methodological approach used for cost estimation was deemed as of high or low reliability based on expert opinion
+Detailed explanation why a particular methodological approach used for cost estimation was deemed as of high or low reliability based on expert opinion.
 
 # **Method_reliability_Expert_Name**
 
-Complete name and contact details of the expert had deemed the reliability of the cost entry
+Complete name and contact details of the expert had deemed the reliability of the cost entry.
 
 # **Overlap**
 
-List of cost entries (using Cost_ID) that might overlap with other cost entry(s) -- this is noted as follows: Z(V/W) when the overlap is known and one or more cost ID (V,W) are included in another cost ID (Z); Z/V/W: when the overlap is not clear; and Z(V); Z/W if there are more than one unrelated overlaps
+List of cost entries (using the <em>Cost_ID</em> column) that might overlap with other cost entry(s) — this is noted as follows:
+- <strong>Z(V/W)</strong>: when the overlap is known and one or more cost IDs (V,W) are included in another cost ID (Z)
+- <strong>Z/V/W</strong>: when the overlap is not clear
+- <strong>Z(V)</strong>: when the overlap is known and one cost ID (V) is included in another cost ID (Z)
+- <strong>Z/W</strong>: when the overlap is not clear
 
 # **Benefit_value**
 
-Mention (if any) of the benefit value in the analyzed material (yes/no); 'benefit' refers here to a monetary estimate associated with profitable activities based on IAS. This definition therefore excludes any economic gain based on avoided or mitigated effects of the IAS (for instance, due to efficient management actions over time that may result in apparent benefits from avoidance of damages) - the latter is considered as an “avoided cost” in the InvaCost database. Note that the benefit figure was not recorded or described as being out of the scope of InvaCost
+Mention (if any) of the benefit value in the analysed material (<strong>yes</strong> or <strong>no</strong>). 'Benefit' refers here to a monetary estimate associated with profitable activities based on invasive species. This definition therefore excludes any economic gain based on avoided or mitigated effects of the invasive species (e.g., due to efficient management actions over time that might result in apparent benefits from avoidance of damage) - the latter is considered as an “avoided cost” in the <a href="https://github.com/InvaHealth/invacost"><em>InvaCost</em></a> database. The benefit figure was not recorded or described as being out of the scope of InvaCost. See <a href="https://doi.org/10.1093/biosci/biae010">Carneiro et al. (2024)</a> for a more elaborate discussion of benefits <em>versus</em> costs of invasive species.
 
 # **Details**
 
-When necessary, narrative elements deemed important either to understand the cost estimate or to support choices made for completing the database; this column was left unchanged from the original entries in order to allow trace-back investigations
+When necessary, narrative elements deemed important either to understand the cost estimate or to support choices made for completing the database; this column was left unchanged from the original entries in order to allow trace-back investigations.
 
 # **Initial_contributors_names**
 
-Name of contributor(s) having collated the cost entry
+Name of contributor(s) having collated the cost entry.
 
 # **Double_checking**
 
-Assessment of cost information collated (by at least) two contributors; yes if it has been double checked, no if it has not. The names/contacts of each contributor are provided in the Initial contributors_names column
+Assessment of cost information collated (by at least) two contributors;
+- <strong>yes</strong> if it has been double checked,
+- <strong>no</strong> if it has not.
+The names/contacts of each contributor are provided in the <em>Initial_contributors_names</em> column.
