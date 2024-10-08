@@ -18,6 +18,14 @@ last updated: 2024-10-08
 -   [**Type_of_material**](#type_of_material)
 -   [**Previous_materials**](#previous_materials)
 -   [**Availability**](#availability)
+-   [**Kingdom**](#kingdom)
+-   [**Phylum**](#phylum)
+-   [**Class**](#class)
+-   [**Order**](#order)
+-   [**Family**](#family)
+-   [**Genus**](#genus)
+-   [**Species**](#species)
+-   [**Subspecies**](#subspecies)
 
 
 ## Descriptions
@@ -76,4 +84,12 @@ If any, the list of successive materials checked before reaching the original re
 # **Availability**
 
 The accessibility of the original reference as a searchable document (yes/no).
+
+# **Kingdom**
+
+Taxonomic kingdom of the invasive species associated with the cost entry.
+
+# **Phylum**
+
+Taxonomic phylum of the invasive species associated with the cost entry.
 
