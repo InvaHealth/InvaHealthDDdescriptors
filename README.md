@@ -324,112 +324,117 @@ Mode of transmission of the biohazard/impact:
 
 # **Number_people_exposed**
 
-Number of people exposed to the biohazard / health issue
+Number of people exposed to the biohazard / health issue.
 
 # **Number_people_exposed_per_year**
 
-Number of people exposed to the biohazard / health issue per year
+Number of people exposed to the biohazard / health issue per year.
 
 # **Number_people_affected**
 
-Number of people with health impacts due to the biohazard / health issue
+Number of people with health impacts due to the biohazard / health issue.
 
 # **Number_people_affected_per_year**
 
-Number of people with health impacts due to the biohazard / health issue per year
+Number of people with health impacts due to the biohazard / health issue per year.
 
 # **Mortality_num**
 
-Number of people having died due to the biohazard / health issue
+Number of people having died due to the biohazard / health issue.
 
 # **Mortality_num_per_year**
 
-Number of people having died due to the biohazard / health issue per year
+Number of people having died due to the biohazard / health issue per year.
 
 # **Mortality_prob_specific**
 
-Probability that a person affected by the biohazard will die, specific to the study (reported in the study or proportion from the above)
+Probability that a person affected by the biohazard will die, specific to the study (reported in the study or proportion from the above).
 
 # **Mortality_prob_global**
 
-Global estimate of the probability that a person affected by the biohazard will die (as reported in the study)
+Global estimate of the probability that a person affected by the biohazard will die (as reported in the study).
 
 # **Hospitalisation_num**
 
-Number of people hospitalised because of the biohazard / health issue
+Number of people hospitalised because of the biohazard / health issue.
 
 # **Hospitalisation_num_per_year**
 
-Number of people hospitalised because of the biohazard / health issue per year
+Number of people hospitalised because of the biohazard / health issue per year.
 
 # **Avg_hospitalisation_days**
 
-Average number of days a person is hospitalised (when hospitalised)
+Average number of days a person is hospitalised (when hospitalised).
 
 # **Min_hospitalisation_days**
 
-Minimum number of days a person is hospitalised (when hospitalised)
+Minimum number of days a person is hospitalised (when hospitalised).
 
 # **Max_hospitalisation_days**
 
-Maximum number of days a person is hospitalised (when hospitalised)
+Maximum number of days a person is hospitalised (when hospitalised).
 
 # **Avg_debilitation_days**
 
-Average number of days a person has to stop working or perform their normal activities
+Average number of days a person has to stop working or perform their normal activities.
 
 # **Min_debilitation_days**
 
-Minimum number of days a person has to stop working or perform their normal activities
+Minimum number of days a person has to stop working or perform their normal activities.
 
 # **Max_debilitation_days**
 
-Maximum number of days a person has to stop working or perform their normal activities
+Maximum number of days a person has to stop working or perform their normal activities.
 
 # **DALY**
 
-Disability-adjusted life year
+<a href="https://www.who.int/data/gho/indicator-metadata-registry/imr-details/158#:~:text=Definition%3A-,One%20DALY%20represents%20the%20loss%20of%20the%20equivalent%20of%20one,health%20condition%20in%20a%20population.">Disability-adjusted life years</a>.
 
 # **Social_category**
 
-Social category of the people impacted, when clearly identified
+Social category of the people impacted, when clearly identified.
 
 # **Age_category**
 
-Age category of the people impacted, when clearly identified
+Age category of the people impacted, when clearly identified.
 
 # **Gender**
 
-Gender of the people impacted, when clearly identified
+(Main) gender of the people impacted, when clearly identified.
 
 # **Other**
 
-Temporary column for other types of impacts we may have forgotten - each will become a separate column in the end
+Temporary column for other types of impacts we might have forgotten - each will become a separate column in the end.
 
 # **Implementation_social**
 
-This states — at the time of the estimation — whether the reported cost was actually observed (i.e., cost actually incurred) or potential (i.e., not incurred but expected cost)
+This states — at the time of the estimation — whether the reported cost was actually <strong>observed</strong> (i.e., cost actually incurred) or <strong>potential</strong> (i.e., not incurred but expected cost).
 
 # **Acquisition_method_social**
 
-Method used to obtain the cost estimate: report/estimation directly obtained or derived (using inference methods) from field-based information or extrapolation (cost predicted beyond the original spatial and/or temporal observation range from computational modelling)
+Method used to obtain the cost estimate:
+- report/estimation directly obtained or
+- derived (using inference methods) from field-based information or
+- extrapolation (cost predicted beyond the original spatial and/or temporal observation range from computational modelling).
 
 # **Method_used_paper_social**
 
-Method used to assess the social variables above as described in the paper
+Method used to assess the social variables above as described in the paper.
 
 # **Method_reliability_social**
 
-Assessment of the methodological approach used to assess the social variables above as of (i) high reliability if either provided by officially pre-assessed materials (peer-reviewed articles and official reports) or the estimation method was documented, repeatable and/or traceable if provided by other grey literature, or (ii) low reliability if not
+Assessment of the methodological approach used to assess the social variables above as of:
+- (<em>i</em>) <strong>high</strong> reliability if either provided by officially pre-assessed materials (peer-reviewed articles and official reports) or the estimation method was documented, repeatable and/or traceable if provided by other grey literature, or
+- (<em>ii</em>) <strong>low</strong> reliability if not.
 
 # **Method_reliability_refined_social**
 
-Assessment of the methodological approach used to assess the social variables above as of high or low reliability based on the evaluation of the estimation methodology by expert contributors
+Assessment of the methodological approach used to assess the social variables above as of high or low reliability based on the evaluation of the estimation methodology by expert contributors.
 
 # **Method_reliability_Explanation_social**
 
-Detailed explanation why a particular methodological approach used to assess the social variables above was deemed as of high or low reliability based on expert opinion
+Detailed explanation why a particular methodological approach used to assess the social variables above was deemed as of high or low reliability based on expert opinion.
 
 # **Method_reliability_Expert_Name_social**
 
-Complete name and contact details of the expert had deemed the reliability of the entry for the social variables above
+Complete name and contact details of the expert had deemed the reliability of the entry for the social variables above.
