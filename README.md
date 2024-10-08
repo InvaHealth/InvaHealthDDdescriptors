@@ -152,16 +152,16 @@ Type of environment where the invasive species lives, independently of where the
 
 # **HabitatVerbatim**
 
-Copy from the original reference of the sentence/paragraph indicating the habitat typology of the studied area
+Copy from the original reference of the sentence/paragraph indicating the habitat typology of the studied area.
 
 # **Habitat**
 
-The type of habitat where the cost occurred 
+The type of habitat where the cost occurred: 
 
 1. <strong>forests</strong>: closed vegetation dominated by deciduous or evergreen trees;
 2. <strong>open forests</strong>: woodland vegetation with canopy openings created by environmental stress or disturbance;
 3. <strong>scrub</strong>: shrublands maintained by environmental stress (aridity) or disturbance;
-4. <strong>grasslands</strong>: open graminoid-dominated habitats maintained either by climate (steppes, prairies, savannas) or land use (grazing, mowing) or combination of both – if possible, specified if it corresponds with
+4. <strong>grasslands</strong>: open graminoid-dominated habitats maintained either by climate (steppes, prairies, savannas) or land use (grazing, mowing) or combination of both – if possible, specified if it corresponds with<br>
   4a. <em>natural grasslands</em> or<br>
   4b. <em>human-maintained grasslands</em>;
 5. <strong>sandy</strong>: dunes and other habitats on unstable sandy substrate, stressed by low nutrients, drought and disturbed by sand movement;
@@ -176,59 +176,80 @@ The type of habitat where the cost occurred
 
 # **urbanArea**
 
-Assessment of the geographical area where the cost occurred as being strictly urban if the cost occurred in an urban area only; other if the cost occurred in a non-urban area or in a large area where urban and non-urban areas cannot be distinguished; both if the study compares the cost between urban and non-urban areas (i.e. urban vs. suburban, or suburban vs. non-urban; the comparison must be explicit) or presents the cost across contrasted areas regarding their level of urbanization (e.g. urbanization gradient). Note that we consider the urban nature of study sites purely based on an 'habitat' perspective (i.e. city versus rural areas) rather than a demographic one (e.g. population size or human density)
+Assessment of the geographical area where the cost occurred as being strictly urban if the cost occurred in an urban area only; other if the cost occurred in a non-urban area or in a large area where urban and non-urban areas cannot be distinguished; both if the study compares the cost between urban and non-urban areas (i.e. urban vs. suburban, or suburban vs. non-urban; the comparison must be explicit) or presents the cost across contrasted areas regarding their level of urbanization (e.g., urbanisation gradient). We consider the urban nature of study sites purely based on an 'habitat' perspective (i.e., city <em>versus</em> rural areas) rather than a demographic one (e.g., population size or human density).
 
 # **Island**
 
-Assessment of the geographical area where the cost occurred as an island (Y) or not (N); NA is used when the cost information is not clearly provided, unknown, or comprises both island and mainland together
+Assessment of the geographical area where the cost occurred as an island (Y) or not (N); NA is used when the cost information is not clearly provided, unknown, or comprises both island and mainland together.
 
 # **TDWG1**
 
-Botanical continent (level 1) from the TDWG
+Botanical continent (<a href="https://github.com/tdwg/wgsrpd/blob/master/109-488-1-ED/2nd%20Edition/tblLevel1.txt">level 1</a>) from the <a href="https://www.tdwg.org/">Biodiversity Information Standards</a> (TDWG).
 
 # **TDWG2**
 
-Botanical subcontinental regions (level 2) from the TDWG
+Botanical subcontinental regions (<a href="https://github.com/tdwg/wgsrpd/blob/master/109-488-1-ED/2nd%20Edition/tblLevel2.txt">level 2</a>) from the <a href="https://www.tdwg.org/">Biodiversity Information Standards</a> (TDWG).
 
 # **Official_country**
 
-Country where the impact occurred; sometimes, this is not congruent with the geographic region as some territories (e.g., overseas areas) are located in another continent than their official country of attachment; we used information from www.naturalearthdata.com/ as a reference for country's name
+Country where the impact occurred; sometimes this is not congruent with the geographic region as some territories (e.g., overseas areas) are located in another continent than their official country of attachment; we used information from <a href="http://www.naturalearthdata.com/">here</a> as a reference for country names.
 
 # **Region**
 
-Non-administrative name of a region where the impact was recorded, when more appropriate (e.g. for some islands)
+Non-administrative name of a region where the impact was recorded, when more appropriate (e.g., for some islands).
 
 # **ISO_3166_1_alpha_3**
 
-Three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest
+Three-letter country codes defined in <a href="https://www.iso.org/obp/ui/#search">ISO 3166-1</a>, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest
 
 # **ISO_3166_2_alpha_3**
 
-Sub-levels of ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO). See e.g. https://en.wikipedia.org/wiki/ISO_3166-2:FR
+Sub-levels of <a href="https://en.wikipedia.org/wiki/ISO_3166-2#Subdivisions_included_in_ISO_3166-1">ISO 3166-2</a>, part of the ISO 3166 standard published by the International Organization for Standardization (ISO).
 
 # **State_Province_AdministrativeArea**
 
-The second level of geographic division (state, province or territorial administrative area) for the official country where the cost occurred
+The second level of geographic division (state, province, or territorial administrative area) for the official country where the cost occurred.
 
 # **Location**
 
-When provided, the precise location (e.g., city, area) where the cost estimate occurred. Otherwise, we put (i) NA when such information was not provided and the cost entry was provided at a unit or site Spatial scale, or (ii) diverse/unspecified when such information was not provided and the cost entry was provided at global, intercontinental, continental, regional or country Spatial scale
+When provided, the precise location (e.g., city, area) where the cost estimate occurred. Otherwise, we put (<em>i</em>) 'NA' when such information was not provided and the cost entry was provided at a unit or site Spatial scale, or (<em>ii</em>) diverse/unspecified when such information was not provided and the cost entry was provided at global, intercontinental, continental, regional or country Spatial scale
 
 # **Spatial_scale**
 
-Order of magnitude of the extent, size of the land/water area where the costs incurred. Options include: global (worldwide-scale), intercontinental (areas from two or more geographic regions), continental ('Geographic region' level), regional (several countries within a single 'Geographic region'), country, site (area at intra-country level, including USA states) and unit (well-defined surface area or entity)
+Order of magnitude of the extent, size of the land/water area where the costs incurred. Options include:
+- global (worldwide-scale),
+- intercontinental (areas from two or more geographic regions),
+- continental ('geographic region' level),
+- regional (several countries within a single 'geographic region'),
+- country,
+- site (area at intra-country level, including USA states), or
+- unit (well-defined surface area or entity)
 
 # **LAT**
 
-Latitude where the impact occurred in decimal degrees
+Latitude (decimal degrees) where the impact occurred.
 
 # **LON**
 
-Longitude where the impact occurred in decimal degrees
+Longitude (decimal degrees) where the impact occurred.
 
 # **Biome**
 
-Biome where the impact occurred, based on Olson et al. (2001), using the 14 biomes - https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2 - Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D'Amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51(11):933-938.
+Biome where the impact occurred, based on <a href="https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2">Olson et al. (2001)</a>, using the 14 biomes. See associated repository '<a href="https://github.com/InvaHealth/WWFbioregions">WWFbioregions</a>' for the GIS shapefiles and R code necessary to obtain the biome category. Categories included:
+- Tropical & Subtropical Moist Broadleaf Forests
+- Tropical & Subtropical Dry Broadleaf Forests
+- Tropical & Subtropical Coniferous Forests
+- Temperate Broadleaf & Mixed Forests
+- Temperate Conifer Forests
+- Boreal Forests/Taiga
+- Tropical & Subtropical Grasslands, Savannas & Shrublands
+- Temperate Grasslands, Savannas & Shrublands
+- Flooded Grasslands & Savannas
+- Montane Grasslands & Shrublands
+- Tundra
+- Mediterranean Forests, Woodlands & Scrub
+- Deserts & Xeric Shrublands
+- Mangroves
 
 # **Native_Introduced**
 
