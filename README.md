@@ -253,32 +253,45 @@ Biome where the impact occurred, based on <a href="https://doi.org/10.1641/0006-
 
 # **Native_Introduced**
 
-Indicates if the impact occurs in the native or introduced range of the species corresponding to the entry
+Indicates if the impact occurs in the native or introduced range of the species corresponding to the entry.
 
 # **Health_impact_mechanism**
 
-General types of health impact - a fixed list of categorie (Pathogen, Toxin, Allergen, Direct physicial harm, Resource availability, Mental health, Behaviour changer)
+General types of health impact — a fixed list of categories:
+- pathogen
+- toxin
+- allergen
+- direct physicial harm
+- resource availability
+- mental health
+- behaviour changer
 
 # **Associated_biohazard**
 
-The name of the substance affecting human health. Name of the pathogen, toxin or allergen
+The name of the substance affecting human health. Name of the pathogen, toxin, or allergen.
 
 # **Role**
 
-Vector, Reservoir or Facilitator. Sensu Vilà et al. (2021)
+Vector, Reservoir, or Facilitator (sensu <a href="https://doi.org/10.1093/biosci/biab047">Vilà et al. (2021)</a>).
 
 # **Associated_vector**
 
-If a species is a reservoir or a facilitator, the species acting as a vector should be indicated
+If a species is a reservoir or a facilitator, the species acting as a vector should be indicated.
 
 # **Associated_reservoir**
 
-If a species is a vector or a facilitator, the species acting as a reservoir should be indicated if there is one
+If a species is a vector or a facilitator, the species acting as a reservoir should be indicated if there is one.
 
 # **Associated_facilitator**
 
-If a species is a vector or a reservoir, the species acting as a facilitator should be indicated if there is one
+If a species is a vector or a reservoir, the species acting as a facilitator should be indicated if there is one.
 
 # **Mode_transmission**
 
-Mode of transmission of the biohazard / impact (airborne, waterborne, direct contact, foodborne, vectorborne)
+Mode of transmission of the biohazard/impact:
+- air-borne
+- water-borne
+- direct contact
+- food-borne
+- vector-borne
+
