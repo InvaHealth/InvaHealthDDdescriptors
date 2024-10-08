@@ -14,6 +14,8 @@ last updated: 2024-10-08
 -   [**Authors**](#authors)
 -   [**Abstract**](#abstract)
 -   [**Publication_year**](#publication_year)
+-   [**Language**](#language)
+-   [**Type_of_material**](#type_of_material)
 
 
 ## Descriptions
@@ -56,4 +58,12 @@ If existing/accessible, the abstract of the reference where the cost entry is re
 # **Publication_year**
 
 Year of publication of the reference where the cost entry is reported.
+
+# **Language**
+
+Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
+
+# **Type_of_material**
+
+Type of reference analszed (i.e., scientific peer-reviewed article or grey literature); for grey literature, the exact nature of the reference was indicated (e.g., official report, press release).
 
