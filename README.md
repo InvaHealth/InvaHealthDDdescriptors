@@ -2,6 +2,8 @@
 
 2024-10-07
 
+## Column Names
+
 -   [**InvaHealth_ID**](#invahealth_id)
 -   [**Repository**](#repository)
 -   [**Reference_ID**](#reference_id)
@@ -9,7 +11,7 @@
 -   [**InvaPact_Reference_ID**](#invaPact_reference_id)
 
 
-
+## Descriptions
 # **InvaHealth_ID**
 
 Public unique identifier, which is formulated as follows: 'IC_x_y' with 'IC' meaning InvaCost, 'x' being the version number of the database, and 'y' being the sequential number attributed following the order of integration of costs in the database.
