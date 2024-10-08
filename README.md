@@ -148,7 +148,7 @@ Non-scientific (or vernacular) name(s) provided in the original reference, or by
 
 # **Environment_IAS**
 
-Type of environment where the invasive species lives, independently of where the cost occurred: aquatic (species with a close association with aquatic systems at any life stage, including for reproduction, development and/or foraging), semi-aquatic (species with a looser association with aquatic systems) or terrestrial (otherwise); diverse/unspecified is used when there are multiple IAS pertaining to different environments.
+Type of environment where the invasive species lives, independently of where the cost occurred: aquatic (species with a close association with aquatic systems at any life stage, including for reproduction, development and/or foraging), semi-aquatic (species with a looser association with aquatic systems) or terrestrial (otherwise); diverse/unspecified is used when there are multiple invasive species pertaining to different environments.
 
 # **HabitatVerbatim**
 
@@ -156,7 +156,23 @@ Copy from the original reference of the sentence/paragraph indicating the habita
 
 # **Habitat**
 
-The type of habitat where the cost occurred (1.Forests: closed vegetation dominated by deciduous or evergreen trees; 2.Open forests: woodland vegetation with canopy openings created by environmental stress or disturbance; 3.Scrub: shrublands maintained by environmental stress (aridity) or disturbance; 4.Grasslands: open graminoid-dominated habitats maintained either by climate (steppes, prairies, savannas) or land-use (grazing, mowing) or combination of both – if possible, specified if it corresponds with 4a.Natural grasslands or 4b.Human-maintained grasslands; 5.Sandy: dunes and other habitats on unstable sandy substrate, stressed by low nutrients, drought and disturbed by sand movement; 6.Rocky: cliffs and rock outcrops with very shallow or no soil; 7.Dryland: habitats in which drought stress limits vegetation development; 8.Saline: habitats stressed by high soil salinity; 9.Riparian: a mosaic of wetlands, grasslands, tall-forb stands, scrub and woodlands in stream corridors; 10.Wetland: sites with permanent or seasonal influence of moisture, ranging from oligotrophic to eutrophic; 11.Aquatic: water bodies and streams with submerged and floating plant species; 12.Man-made: habitats created by humans or where human factor is the main shaping force - if possible, specified if it corresponds with 12a.Ruderal (= urban) or 12b.Agricultural habitats
+The type of habitat where the cost occurred 
+
+1. <strong>forests</strong>: closed vegetation dominated by deciduous or evergreen trees;
+2. <strong>open forests</strong>: woodland vegetation with canopy openings created by environmental stress or disturbance;
+3. <strong>scrub</strong>: shrublands maintained by environmental stress (aridity) or disturbance;
+4. <strong>grasslands</strong>: open graminoid-dominated habitats maintained either by climate (steppes, prairies, savannas) or land use (grazing, mowing) or combination of both – if possible, specified if it corresponds with
+  4a. <em>natural grasslands</em> or
+  4b. <em>human-maintained grasslands</em>;
+5. <strong>sandy</strong>: dunes and other habitats on unstable sandy substrate, stressed by low nutrients, drought and disturbed by sand movement;
+6. <strong>rocky</strong>: cliffs and rock outcrops with very shallow or no soil;
+7. <strong>dryland</strong>: habitats in which drought stress limits vegetation development; 8.Saline: habitats stressed by high soil salinity;
+9. <strong>riparian</strong>: a mosaic of wetlands, grasslands, tall-forb stands, scrub and woodlands in stream corridors;
+10. <strong>wetland</strong>: sites with permanent or seasonal influence of moisture, ranging from oligotrophic to eutrophic;
+11. <strong>aquatic: water bodies and streams with submerged and floating plant species;
+12. <strong>human-made</strong>: habitats created by humans or where human factor is the main shaping force - if possible, specified if it corresponds with
+  12a. <em>ruderal</em> (= urban) or
+  12b. <em>agricultural</em> habitats
 
 # **urbanArea**
 
