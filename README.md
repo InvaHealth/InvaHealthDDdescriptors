@@ -5,6 +5,7 @@
 -   [**InvaHealth_ID**](#invahealth_id)
 -   [**Repository**](#repository)
 -   [**Reference_ID**](#reference_id)
+-   [**InvaCost_Reference_ID**](#invaCost_reference_id)
 
 
 -   [**Descriptors
@@ -115,6 +116,11 @@ Literature engine (<a href="https://access.clarivate.com/login?app=wos&alternati
 # **Reference_ID**
 
 Identifier for the reference where the cost entry is reported; note that this field is currently being improved internally to have a consistent terminology across references within the database.
+
+# **InvaCost_Reference_ID**
+
+Identifier for the reference where a cost entry is reported In <a href="https://github.com/InvaCost"><em>InvaCost</em></a>; this field is currently being improved internally to have a consistent terminology across references within the database.
+
 
 
 # **Descriptors “Availability/Previous\_materials”**
