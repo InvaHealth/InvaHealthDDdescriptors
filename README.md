@@ -26,7 +26,32 @@ last updated: 2024-10-08
 -   [**Genus**](#genus)
 -   [**Species**](#species)
 -   [**Subspecies**](#subspecies)
-
+-   [**Common_name**](#common_name)
+-   [**Environment_IAS**](#environment_ias)
+-   [**HabitatVerbatim**](#habitatverbatim)
+-   [**Habitat**](#habitat)
+-   [**urbanArea**](#urbanarea)
+-   [**Island**](#island)
+-   [**TDWG1**](#tdwg1)
+-   [**TDWG2**](#tdwg2)
+-   [**Official_country**](#official_country)
+-   [**Region**](#region)
+-   [**ISO_3166_1_alpha_3**](#iso_3166_1_alpha_3)
+-   [**ISO_3166_2_alpha_3**](#iso_3166_2_alpha_3)
+-   [**State_Province_AdministrativeArea**](#state_province_administrativeArea)
+-   [**Location**](#location)
+-   [**Spatial_scale**](#spatial_scale)
+-   [**LAT**](#lat)
+-   [**LON**](#lon)
+-   [**Biome**](#biome)
+-   [**Native_Introduced**](#native_Introduced)
+-   [**Health_impact_mechanism**](#health_impact_mechanism)
+-   [**Associated_biohazard**](#associated_biohazard)
+-   [**Role**](#role)
+-   [**Associated_vector**](#associated_vector)
+-   [**Associated_reservoir**](#associated_reservoir)
+-   [**Associated_facilitator**](#associated_facilitator)
+-   [**Mode_transmission**](#mode_transmission)
 
 ## Descriptions
 # **InvaHealth_ID**
@@ -117,3 +142,106 @@ Taxonomic species of the invasive species associated with the cost entry.
 
 Taxonomic subspecies of the invasive species associated with the cost entry.
 
+# **Common_name**
+
+Non-scientific (or vernacular) name(s) provided in the original reference, or by the <a href="http://iucn.org">International Union for Conservation of Nature</a> (IUCN) when not provided.
+
+# **Environment_IAS**
+
+Type of environment where the invasive species lives, independently of where the cost occurred: aquatic (species with a close association with aquatic systems at any life stage, including for reproduction, development and/or foraging), semi-aquatic (species with a looser association with aquatic systems) or terrestrial (otherwise); diverse/unspecified is used when there are multiple IAS pertaining to different environments.
+
+# **HabitatVerbatim**
+
+Copy from the original reference of the sentence/paragraph indicating the habitat typology of the studied area
+
+# **Habitat**
+
+The type of habitat where the cost occurred (1.Forests: closed vegetation dominated by deciduous or evergreen trees; 2.Open forests: woodland vegetation with canopy openings created by environmental stress or disturbance; 3.Scrub: shrublands maintained by environmental stress (aridity) or disturbance; 4.Grasslands: open graminoid-dominated habitats maintained either by climate (steppes, prairies, savannas) or land-use (grazing, mowing) or combination of both – if possible, specified if it corresponds with 4a.Natural grasslands or 4b.Human-maintained grasslands; 5.Sandy: dunes and other habitats on unstable sandy substrate, stressed by low nutrients, drought and disturbed by sand movement; 6.Rocky: cliffs and rock outcrops with very shallow or no soil; 7.Dryland: habitats in which drought stress limits vegetation development; 8.Saline: habitats stressed by high soil salinity; 9.Riparian: a mosaic of wetlands, grasslands, tall-forb stands, scrub and woodlands in stream corridors; 10.Wetland: sites with permanent or seasonal influence of moisture, ranging from oligotrophic to eutrophic; 11.Aquatic: water bodies and streams with submerged and floating plant species; 12.Man-made: habitats created by humans or where human factor is the main shaping force - if possible, specified if it corresponds with 12a.Ruderal (= urban) or 12b.Agricultural habitats
+
+# **urbanArea**
+
+Assessment of the geographical area where the cost occurred as being strictly urban if the cost occurred in an urban area only; other if the cost occurred in a non-urban area or in a large area where urban and non-urban areas cannot be distinguished; both if the study compares the cost between urban and non-urban areas (i.e. urban vs. suburban, or suburban vs. non-urban; the comparison must be explicit) or presents the cost across contrasted areas regarding their level of urbanization (e.g. urbanization gradient). Note that we consider the urban nature of study sites purely based on an 'habitat' perspective (i.e. city versus rural areas) rather than a demographic one (e.g. population size or human density)
+
+# **Island**
+
+Assessment of the geographical area where the cost occurred as an island (Y) or not (N); NA is used when the cost information is not clearly provided, unknown, or comprises both island and mainland together
+
+# **TDWG1**
+
+Botanical continent (level 1) from the TDWG
+
+# **TDWG2**
+
+Botanical subcontinental regions (level 2) from the TDWG
+
+# **Official_country**
+
+Country where the impact occurred; sometimes, this is not congruent with the geographic region as some territories (e.g., overseas areas) are located in another continent than their official country of attachment; we used information from www.naturalearthdata.com/ as a reference for country's name
+
+# **Region**
+
+Non-administrative name of a region where the impact was recorded, when more appropriate (e.g. for some islands)
+
+# **ISO_3166_1_alpha_3**
+
+Three-letter country codes defined in ISO 3166-1, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest
+
+# **ISO_3166_2_alpha_3**
+
+Sub-levels of ISO 3166-2, part of the ISO 3166 standard published by the International Organization for Standardization (ISO). See e.g. https://en.wikipedia.org/wiki/ISO_3166-2:FR
+
+# **State_Province_AdministrativeArea**
+
+The second level of geographic division (state, province or territorial administrative area) for the official country where the cost occurred
+
+# **Location**
+
+When provided, the precise location (e.g., city, area) where the cost estimate occurred. Otherwise, we put (i) NA when such information was not provided and the cost entry was provided at a unit or site Spatial scale, or (ii) diverse/unspecified when such information was not provided and the cost entry was provided at global, intercontinental, continental, regional or country Spatial scale
+
+# **Spatial_scale**
+
+Order of magnitude of the extent, size of the land/water area where the costs incurred. Options include: global (worldwide-scale), intercontinental (areas from two or more geographic regions), continental ('Geographic region' level), regional (several countries within a single 'Geographic region'), country, site (area at intra-country level, including USA states) and unit (well-defined surface area or entity)
+
+# **LAT**
+
+Latitude where the impact occurred in decimal degrees
+
+# **LON**
+
+Longitude where the impact occurred in decimal degrees
+
+# **Biome**
+
+Biome where the impact occurred, based on Olson et al. (2001), using the 14 biomes - https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2 - Olson, D. M., Dinerstein, E., Wikramanayake, E. D., Burgess, N. D., Powell, G. V. N., Underwood, E. C., D'Amico, J. A., Itoua, I., Strand, H. E., Morrison, J. C., Loucks, C. J., Allnutt, T. F., Ricketts, T. H., Kura, Y., Lamoreux, J. F., Wettengel, W. W., Hedao, P., Kassem, K. R. 2001. Terrestrial ecoregions of the world: a new map of life on Earth. Bioscience 51(11):933-938.
+
+# **Native_Introduced**
+
+Indicates if the impact occurs in the native or introduced range of the species corresponding to the entry
+
+# **Health_impact_mechanism**
+
+General types of health impact - a fixed list of categorie (Pathogen, Toxin, Allergen, Direct physicial harm, Resource availability, Mental health, Behaviour changer)
+
+# **Associated_biohazard**
+
+The name of the substance affecting human health. Name of the pathogen, toxin or allergen
+
+# **Role**
+
+Vector, Reservoir or Facilitator. Sensu Vilà et al. (2021)
+
+# **Associated_vector**
+
+If a species is a reservoir or a facilitator, the species acting as a vector should be indicated
+
+# **Associated_reservoir**
+
+If a species is a vector or a facilitator, the species acting as a reservoir should be indicated if there is one
+
+# **Associated_facilitator**
+
+If a species is a vector or a reservoir, the species acting as a facilitator should be indicated if there is one
+
+# **Mode_transmission**
+
+Mode of transmission of the biohazard / impact (airborne, waterborne, direct contact, foodborne, vectorborne)
