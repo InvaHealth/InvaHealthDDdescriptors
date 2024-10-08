@@ -13,6 +13,7 @@ last updated: 2024-10-08
 -   [**Reference_title**](#reference_title)
 -   [**Authors**](#authors)
 -   [**Abstract**](#abstract)
+-   [**Publication_year**](#publication_year)
 
 
 ## Descriptions
@@ -51,4 +52,8 @@ Authors of the reference where the cost entry is reported.
 # **Abstract**
 
 If existing/accessible, the abstract of the reference where the cost entry is reported.
+
+# **Publication_year**
+
+Year of publication of the reference where the cost entry is reported.
 
