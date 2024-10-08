@@ -100,3 +100,20 @@ Taxonomic class of the invasive species associated with the cost entry.
 # **Order**
 
 Taxonomic order of the invasive species associated with the cost entry.
+
+# **Family**
+
+Taxonomic family of the invasive species associated with the cost entry.
+
+# **Genus**
+
+Taxonomic genus of the invasive species associated with the cost entry.
+
+# **Species**
+
+Taxonomic species of the invasive species associated with the cost entry.
+
+# **Subspecies**
+
+Taxonomic subspecies of the invasive species associated with the cost entry.
+
