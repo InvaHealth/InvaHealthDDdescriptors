@@ -158,15 +158,15 @@ If existing/accessible, the abstract of the reference where the cost entry is re
 
 # **Publication_year**
 
-Year of publication of the reference where the cost entry is reported.
+Year of publication of the reference where the cost entry is reported (format: YYYY).
 
 # **Language**
 
-Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
+Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the <em>InvaCost</a> database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
 
 # **Type_of_material**
 
-Type of reference analszed (i.e., scientific peer-reviewed article or grey literature); for grey literature, the exact nature of the reference was indicated (e.g., official report, press release).
+Type of reference analysed (i.e., <strong>scientific peer-reviewed article</strong> or <strong>grey literature</strong>); for grey literature, the exact nature of the reference should indicated (e.g., <strong>official report</strong>, <strong>press release</strong>, etc.).
 
 # **Previous_materials**
 
@@ -174,15 +174,20 @@ If any, the list of successive materials checked before reaching the original re
 
 # **Availability**
 
-The accessibility of the original reference as a searchable document (yes/no).
+The accessibility of the original reference as a searchable document (<strong>yes</strong> or <strong>no</strong>).
 
 # **Kingdom**
 
 Taxonomic kingdom of the invasive species associated with the cost entry.
+- <strong>Animalia</strong>
+- <strong>Plantae</strong>
+- <strong>Fungi</strong>
+- <strong>Protista</strong>
+- <strong>Monera</strong>
 
 # **Phylum**
 
-Taxonomic phylum of the invasive species associated with the cost entry.
+Taxonomic <a href="https://en.wikipedia.org/wiki/Phylum">phylum</a> of the invasive species associated with the cost entry.
 
 # **Class**
 
@@ -214,7 +219,11 @@ Non-scientific (or vernacular) name(s) provided in the original reference, or by
 
 # **Environment_IAS**
 
-Type of environment where the invasive species lives, independently of where the cost occurred: aquatic (species with a close association with aquatic systems at any life stage, including for reproduction, development and/or foraging), semi-aquatic (species with a looser association with aquatic systems) or terrestrial (otherwise); diverse/unspecified is used when there are multiple invasive species pertaining to different environments.
+Type of environment where the invasive species lives, independently of where the cost occurred: 
+- <strong>aquatic</strong>: species with a close association with aquatic systems at any life stage, including for reproduction, development and/or foraging, 
+- <strong>semi-aquatic</strong>: species with a looser association with aquatic systems,
+- <strong>terrestrial</strong>: otherwise,
+- <strong>diverse/unspecified</strong>: used when there are multiple invasive species pertaining to different environments.
 
 # **HabitatVerbatim**
 
@@ -242,11 +251,17 @@ The type of habitat where the cost occurred:
 
 # **urbanArea**
 
-Assessment of the geographical area where the cost occurred as being strictly urban if the cost occurred in an urban area only; other if the cost occurred in a non-urban area or in a large area where urban and non-urban areas cannot be distinguished; both if the study compares the cost between urban and non-urban areas (i.e. urban vs. suburban, or suburban vs. non-urban; the comparison must be explicit) or presents the cost across contrasted areas regarding their level of urbanization (e.g., urbanisation gradient). We consider the urban nature of study sites purely based on an 'habitat' perspective (i.e., city <em>versus</em> rural areas) rather than a demographic one (e.g., population size or human density).
+Assessment of the geographical area where the cost occurred:
+- <strong>urban</strong>: strictly urban if the cost occurred in an urban area only;
+- <strong>other</strong>: if the cost occurred in a non-urban area or in a large area where urban and non-urban areas cannot be distinguished;
+- <strong>both</strong>: if the study compares the cost between urban and non-urban areas (i.e., urban <em>versus</em> suburban, or suburban <em>versus</em> non-urban; the comparison must be explicit);
+or presents the cost across contrasted areas regarding their degree of urbanisation (e.g., urbanisation gradient). 
+
+The urban nature of study sites is founded purely from a 'habitat' perspective (i.e., city <em>versus</em> rural areas) rather than a demographic one (e.g., population size or human density).
 
 # **Island**
 
-Assessment of the geographical area where the cost occurred as an island (Y) or not (N); NA is used when the cost information is not clearly provided, unknown, or comprises both island and mainland together.
+Assessment of the geographical area where the cost occurred as an island (<strong>yes</strong>) or not (<strong>no</strong>); use <strong>NA</strong> when the cost information is not clearly provided, unknown, or comprises both island and mainland.
 
 # **TDWG1**
 
@@ -258,7 +273,7 @@ Botanical subcontinental regions (<a href="https://github.com/tdwg/wgsrpd/blob/m
 
 # **Official_country**
 
-Country where the impact occurred; sometimes this is not congruent with the geographic region as some territories (e.g., overseas areas) are located in another continent than their official country of attachment; we used information from <a href="http://www.naturalearthdata.com/">here</a> as a reference for country names.
+Country where the impact occurred; sometimes this is not congruent with the geographic region as some territories (e.g., overseas areas) are located in another continent than their official country of attachment; based on information from <a href="http://www.naturalearthdata.com/">here</a> as a reference for country names.
 
 # **Region**
 
@@ -278,18 +293,20 @@ The second level of geographic division (state, province, or territorial adminis
 
 # **Location**
 
-When provided, the precise location (e.g., city, area) where the cost estimate occurred. Otherwise, we put (<em>i</em>) 'NA' when such information was not provided and the cost entry was provided at a unit or site Spatial scale, or (<em>ii</em>) diverse/unspecified when such information was not provided and the cost entry was provided at global, intercontinental, continental, regional or country Spatial scale
+When provided, the precise location (e.g., city, area) where the cost estimate occurred. Otherwise, put: 
+- <strong>NA</strong> when such information was not provided and the cost entry was provided at a unit or site <em>Spatial_scale</em>, or
+- <strong>diverse/unspecified</strong> when such information was not provided and the cost entry was provided at global, intercontinental, continental, regional, or country <em>Spatial_scale</em>.
 
 # **Spatial_scale**
 
 Order of magnitude of the extent, size of the land/water area where the costs incurred. Options include:
-- global (worldwide-scale),
-- intercontinental (areas from two or more geographic regions),
-- continental ('geographic region' level),
-- regional (several countries within a single 'geographic region'),
-- country,
-- site (area at intra-country level, including USA states), or
-- unit (well-defined surface area or entity)
+- <strong>global</strong> (worldwide)
+- <strong>intercontinental</strong> (areas from two or more geographic regions)
+- <strong>continental</strong> ('geographic region' level)
+- <strong>regional</strong> (several countries within a single 'geographic region')
+- <strong>country</strong>
+- <strong>site</strong> (area at intra-country level, including USA states)
+- <strong>unit</strong> (well-defined surface area or entity)
 
 # **LAT**
 
@@ -302,35 +319,35 @@ Longitude (decimal degrees) where the impact occurred. If the cost estimate appl
 # **Biome**
 
 Biome where the impact occurred, based on <a href="https://doi.org/10.1641/0006-3568(2001)051[0933:TEOTWA]2.0.CO;2">Olson et al. (2001)</a>, using the 14 biomes. See associated repository '<a href="https://github.com/InvaHealth/WWFbioregions">WWFbioregions</a>' for the GIS shapefiles and R code necessary to obtain the biome category. Categories included:
-- Tropical & Subtropical Moist Broadleaf Forests
-- Tropical & Subtropical Dry Broadleaf Forests
-- Tropical & Subtropical Coniferous Forests
-- Temperate Broadleaf & Mixed Forests
-- Temperate Conifer Forests
-- Boreal Forests/Taiga
-- Tropical & Subtropical Grasslands, Savannas & Shrublands
-- Temperate Grasslands, Savannas & Shrublands
-- Flooded Grasslands & Savannas
-- Montane Grasslands & Shrublands
-- Tundra
-- Mediterranean Forests, Woodlands & Scrub
-- Deserts & Xeric Shrublands
-- Mangroves
+- <strong>Tropical & Subtropical Moist Broadleaf Forests</strong>
+- <strong>Tropical & Subtropical Dry Broadleaf Forests</strong>
+- <strong>Tropical & Subtropical Coniferous Forests</strong>
+- <strong>Temperate Broadleaf & Mixed Forests</strong>
+- <strong>Temperate Conifer Forests</strong>
+- <strong>Boreal Forests/Taiga</strong>
+- <strong>Tropical & Subtropical Grasslands, Savannas & Shrublands</strong>
+- <strong>Temperate Grasslands, Savannas & Shrublands</strong>
+- <strong>Flooded Grasslands & Savannas</strong>
+- <strong>Montane Grasslands & Shrublands</strong>
+- <strong>Tundra</strong>
+- <strong>Mediterranean Forests, Woodlands & Scrub</strong>
+- <strong>Deserts & Xeric Shrublands</strong>
+- <strong>Mangroves</strong>
 
 # **Native_Introduced**
 
-Indicates if the impact occurs in the native or introduced range of the species corresponding to the entry.
+Indicates if the impact occurs in the <strong>native</strong> or <strong>introduced</strong> range of the species corresponding to the entry.
 
 # **Health_impact_mechanism**
 
 General types of health impact — a fixed list of categories:
-- pathogen
-- toxin
-- allergen
-- direct physicial harm
-- resource availability
-- mental health
-- behaviour changer
+- <strong>pathogen</strong>
+- <strong>toxin</strong>
+- <strong>allergen</strong>
+- <strong>direct physical harm</strong>
+- <strong>resource availability</strong>
+- <strong>mental health</strong>
+- <strong>behaviour changer</strong>
 
 # **Associated_biohazard**
 
@@ -338,28 +355,30 @@ The name of the substance affecting human health. Name of the pathogen, toxin, o
 
 # **Role**
 
-Vector, Reservoir, or Facilitator (sensu <a href="https://doi.org/10.1093/biosci/biab047">Vilà et al. 2021</a>).
+- <strong>vector</strong>, 
+- <strong>reservoir</strong>, or
+- <strong>facilitator</strong> (<em>sensu</em> <a href="https://doi.org/10.1093/biosci/biab047">Vilà et al. 2021</a>)
 
 # **Associated_vector**
 
-If a species is a reservoir or a facilitator, the species acting as a vector should be indicated.
+If a species is a <em>reservoir</em> or a <em>facilitator</em>, the species acting as a vector should be indicated.
 
 # **Associated_reservoir**
 
-If a species is a vector or a facilitator, the species acting as a reservoir should be indicated if there is one.
+If a species is a <em>vector</em> or a <em>facilitator</em>, the species acting as a reservoir should be indicated if there is one.
 
 # **Associated_facilitator**
 
-If a species is a vector or a reservoir, the species acting as a facilitator should be indicated if there is one.
+If a species is a <em>vector</em> or a <em>reservoir</em>, the species acting as a facilitator should be indicated if there is one.
 
 # **Mode_transmission**
 
 Mode of transmission of the biohazard/impact:
-- air-borne
-- water-borne
-- direct contact
-- food-borne
-- vector-borne
+- <strong>air-borne</strong>
+- <strong>water-borne</strong>
+- <strong>direct contact</strong>
+- <strong>food-borne</strong>
+- <strong>vector-borne</strong>
 
 # **Number_people_exposed**
 
@@ -443,7 +462,7 @@ Age category of the people impacted, when clearly identified.
 
 # **Other**
 
-Temporary column for other types of impacts we might have forgotten - each will become a separate column in the end.
+Temporary column for other types of impacts we might have forgotten; each will become a separate column in the end.
 
 # **Implementation_social**
 
@@ -452,9 +471,9 @@ This states — at the time of the estimation — whether the reported cost was 
 # **Acquisition_method_social**
 
 Method used to obtain the cost estimate:
-- report/estimation directly obtained or
-- derived (using inference methods) from field-based information or
-- extrapolation (cost predicted beyond the original spatial and/or temporal observation range from computational modelling).
+- <strong>report/estimation</strong> directly obtained or
+- <strong>derived</strong> (using inference methods) from field-based information or
+- <strong>extrapolation</strong> (cost predicted beyond the original spatial and/or temporal observation range from computational modelling).
 
 # **Method_used_paper_social**
 
@@ -463,12 +482,12 @@ Method used to assess the social variables above as described in the paper.
 # **Method_reliability_social**
 
 Assessment of the methodological approach used to assess the social variables above as of:
-- (<em>i</em>) <strong>high</strong> reliability if either provided by officially pre-assessed materials (peer-reviewed articles and official reports) or the estimation method was documented, repeatable and/or traceable if provided by other grey literature, or
-- (<em>ii</em>) <strong>low</strong> reliability if not.
+- <strong>high</strong> reliability if either provided by officially pre-assessed materials (peer-reviewed articles and official reports) or the estimation method was documented, repeatable and/or traceable if provided by other grey literature, or
+- <strong>low</strong> reliability if not.
 
 # **Method_reliability_refined_social**
 
-Assessment of the methodological approach used to assess the social variables above as of high or low reliability based on the evaluation of the estimation methodology by expert contributors.
+Assessment of the methodological approach used to assess the social variables above as of <em>high</em> or <em>low</em> reliability based on the evaluation of the estimation methodology by expert contributors.
 
 # **Method_reliability_Explanation_social**
 
@@ -480,18 +499,18 @@ Complete name and contact details of the expert had deemed the reliability of th
 
 # **Type_Stakeholder**
 
-The general type of stakeholder - a fixed list (e.g., Health provider, Individual, Community) from <a href="https://doi.org/10.1016/j.scitotenv.2024.173054">Roiz et al. (2024)</a>.
+The general type of stakeholder - a fixed list (e.g., <strong>health provider</strong>, <strong>individual</strong>, <strong>community</strong>, or a combination) as defined by <a href="https://doi.org/10.1016/j.scitotenv.2024.173054">Roiz et al. (2024)</a>.
 
 # **Stakeholder**
 
-The actual stakeholder, e.g. the state or a company, the boundaries of the community (country, city, friends, ...).
+The actual stakeholder, e.g., the state or a company, the boundaries of the community (country, city, friends, ...).
 
 # **Type_1_of_cost**
 
 The two main types of costs:
-- <strong>Damage/Loss</strong>, or
-- <strong>Management</strong>, or
-- <strong>Mixed</strong> when impossible to separate)
+- <strong>damage/loss</strong>, or
+- <strong>management</strong>, or
+- <strong>mixed</strong> when impossible to separate)
 
 # **Type_2_of_cost**
 
