@@ -162,7 +162,7 @@ Year of publication of the reference where the cost entry is reported (format: Y
 
 # **Language**
 
-Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the <em>InvaCost</a> database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
+Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the <em>InvaCost</em> database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
 
 # **Type_of_material**
 
