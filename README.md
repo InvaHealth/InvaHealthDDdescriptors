@@ -103,12 +103,9 @@
         benefices](#question-on-whether-and-how-reporting-monetary-benefices)
 
 
-# **Descriptor “Cost\_ID”**
+# **Descriptor “InvaHealth_ID”**
 
-## Could you explain me how I should assign an ID to a new cost entry I propose to be integrated in the InvaCost database?
-
-Actually, we manage this descriptor internally, and assign new cost IDs
-when the database is publically updated.
+Public unique identifier, which is formulated as follows: 'IC_x_y' with 'IC' meaning InvaCost, 'x' being the version number of the database, and 'y' being the sequential number attributed following the order of integration of costs in the database.
 
 # **Descriptors “Availability/Previous\_materials”**
 
