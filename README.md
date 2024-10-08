@@ -16,6 +16,8 @@ last updated: 2024-10-08
 -   [**Publication_year**](#publication_year)
 -   [**Language**](#language)
 -   [**Type_of_material**](#type_of_material)
+-   [**Previous_materials**](#previous_materials)
+-   [**Availability**](#availability)
 
 
 ## Descriptions
@@ -66,4 +68,12 @@ Main language used in the original reference reporting the cost entry; 22 langua
 # **Type_of_material**
 
 Type of reference analszed (i.e., scientific peer-reviewed article or grey literature); for grey literature, the exact nature of the reference was indicated (e.g., official report, press release).
+
+# **Previous_materials**
+
+If any, the list of successive materials checked before reaching the original reference providing the cost entry.
+
+# **Availability**
+
+The accessibility of the original reference as a searchable document (yes/no).
 
