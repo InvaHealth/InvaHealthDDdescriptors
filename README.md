@@ -12,6 +12,7 @@ last updated: 2024-10-08
 -   [**DOI_URL**](#doi_url)
 -   [**Reference_title**](#reference_title)
 -   [**Authors**](#authors)
+-   [**Abstract**](#abstract)
 
 
 ## Descriptions
@@ -46,4 +47,8 @@ Title of the reference where the cost entry is reported. As much as possible, th
 # **Authors**
 
 Authors of the reference where the cost entry is reported.
+
+# **Abstract**
+
+If existing/accessible, the abstract of the reference where the cost entry is reported.
 
