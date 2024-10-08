@@ -10,6 +10,7 @@ last updated: 2024-10-08
 -   [**InvaCost_Reference_ID**](#invaCost_reference_id)
 -   [**InvaPact_Reference_ID**](#invaPact_reference_id)
 -   [**DOI_URL**](#doi_url)
+-   [**Reference_title**](#reference_title)
 
 
 ## Descriptions
@@ -36,4 +37,8 @@ Identifier for the reference where the impact entry is reported in <a href="http
 # **DOI_URL**
 
 DOI (<a href="https://www.doi.org">digital object identifier</a>) in URL format (e.g., http://doi.org/10.1038/s41586-021-03405-6) or original URL when no DOI is available.
+
+# **Reference_title**
+
+Title of the reference where the cost entry is reported. As much as possible, this is the original source where the cost was first provided.
 
