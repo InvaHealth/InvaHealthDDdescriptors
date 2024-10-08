@@ -293,11 +293,11 @@ Order of magnitude of the extent, size of the land/water area where the costs in
 
 # **LAT**
 
-Latitude (decimal degrees) where the impact occurred.
+Latitude (decimal degrees) where the impact occurred. If the cost estimate applies to an entire country, use the R script available in the <a href="https://github.com/InvaHealth/countryCentroids">countryCentroids</a> repository to obtain the centroid latitude/longitude coordinates for the relevant country. 
 
 # **LON**
 
-Longitude (decimal degrees) where the impact occurred.
+Longitude (decimal degrees) where the impact occurred. If the cost estimate applies to an entire country, use the R script available in the <a href="https://github.com/InvaHealth/countryCentroids">countryCentroids</a> repository to obtain the centroid latitude/longitude coordinates for the relevant country.
 
 # **Biome**
 
