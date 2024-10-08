@@ -162,16 +162,16 @@ The type of habitat where the cost occurred
 2. <strong>open forests</strong>: woodland vegetation with canopy openings created by environmental stress or disturbance;
 3. <strong>scrub</strong>: shrublands maintained by environmental stress (aridity) or disturbance;
 4. <strong>grasslands</strong>: open graminoid-dominated habitats maintained either by climate (steppes, prairies, savannas) or land use (grazing, mowing) or combination of both – if possible, specified if it corresponds with
-  4a. <em>natural grasslands</em> or
+  4a. <em>natural grasslands</em> or<br>
   4b. <em>human-maintained grasslands</em>;
 5. <strong>sandy</strong>: dunes and other habitats on unstable sandy substrate, stressed by low nutrients, drought and disturbed by sand movement;
 6. <strong>rocky</strong>: cliffs and rock outcrops with very shallow or no soil;
 7. <strong>dryland</strong>: habitats in which drought stress limits vegetation development; 8.Saline: habitats stressed by high soil salinity;
 9. <strong>riparian</strong>: a mosaic of wetlands, grasslands, tall-forb stands, scrub and woodlands in stream corridors;
 10. <strong>wetland</strong>: sites with permanent or seasonal influence of moisture, ranging from oligotrophic to eutrophic;
-11. <strong>aquatic: water bodies and streams with submerged and floating plant species;
-12. <strong>human-made</strong>: habitats created by humans or where human factor is the main shaping force - if possible, specified if it corresponds with
-  12a. <em>ruderal</em> (= urban) or
+11. <strong>aquatic</strong>: water bodies and streams with submerged and floating plant species;
+12. <strong>human-made</strong>: habitats created by humans or where human factor is the main shaping force - if possible, specified if it corresponds with<br>
+  12a. <em>ruderal</em> (= urban) or<br>
   12b. <em>agricultural</em> habitats
 
 # **urbanArea**
