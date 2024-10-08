@@ -2,10 +2,7 @@
 
 2024-10-07
 
--   [**Descriptor “Cost\_ID”**](#descriptor-cost_id)
-    -   [Could you explain me how I should assign an ID to a new cost
-        entry I propose to be integrated in the InvaCost
-        database?](#could-you-explain-me-how-i-should-assign-an-id-to-a-new-cost-entry-i-propose-to-be-integrated-in-the-invacost-database)
+-   [**Descriptor “InvaHealth_ID”**](#invahealth_id)
 -   [**Descriptors
     “Availability/Previous\_materials”**](#descriptors-availabilityprevious_materials)
     -   [Question on source literature](#question-on-source-literature)
