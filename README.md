@@ -9,6 +9,7 @@ last updated: 2024-10-08
 -   [**Reference_ID**](#reference_id)
 -   [**InvaCost_Reference_ID**](#invaCost_reference_id)
 -   [**InvaPact_Reference_ID**](#invaPact_reference_id)
+-   [**DOI_URL**](#doi_url)
 
 
 ## Descriptions
@@ -30,5 +31,9 @@ Identifier for the reference where a cost entry is reported In <a href="https://
 
 # **InvaPact_Reference_ID**
 
-Identifier for the reference where the impact entry is reported in <a href="https://especes-exotiques-envahissantes.fr/invapact-un-projet-de-recherche-original-aborde-de-maniere-originale/"><em>InvaPact</em></a>; this field is currently being improved internally to have a consistent terminology across references within the database
+Identifier for the reference where the impact entry is reported in <a href="https://especes-exotiques-envahissantes.fr/invapact-un-projet-de-recherche-original-aborde-de-maniere-originale/"><em>InvaPact</em></a>; this field is currently being improved internally to have a consistent terminology across references within the database.
+
+# **DOI_URL**
+
+DOI (<a href="https://www.doi.org">digital object identifier</a>) in URL format (e.g., http://doi.org/10.1038/s41586-021-03405-6) or original URL when no DOI is available.
 
