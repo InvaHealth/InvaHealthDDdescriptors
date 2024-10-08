@@ -552,7 +552,7 @@ Cost estimate directly retrieved from the analysed reference.
 
 # **Min_Raw_cost_estimate_original_currency**
 
-# **Lower boundary of the <em>Raw_cost_estimate_original_currency</em> (if a range of estimates was provided by the authors).
+Lower boundary of the <em>Raw_cost_estimate_original_currency</em> (if a range of estimates was provided by the authors).
 
 # **Max_Raw_cost_estimate_original_currency**
 
