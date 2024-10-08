@@ -52,6 +52,33 @@ last updated: 2024-10-08
 -   [**Associated_reservoir**](#associated_reservoir)
 -   [**Associated_facilitator**](#associated_facilitator)
 -   [**Mode_transmission**](#mode_transmission)
+-   [**Number_people_exposed_per_year**](#number_people_exposed_per_year)
+-   [**Number_people_affected**](#number_people_affected)
+-   [**Number_people_affected_per_year**](#number_people_affected_per_year)
+-   [**Mortality_num**](#mortality_num)
+-   [**Mortality_num_per_year**](#mortality_num_per_year)
+-   [**Mortality_prob_specific**](#mortality_prob_specific)
+-   [**Mortality_prob_global**](#mortality_prob_global)
+-   [**Hospitalisation_num**](#hospitalisation_num)
+-   [**Hospitalisation_num_per_year**](#hospitalisation_num_per_year)
+-   [**Avg_hospitalisation_days**](#avg_hospitalisation_days)
+-   [**Min_hospitalisation_days**](#min_hospitalisation_days)
+-   [**Max_hospitalisation_days**](#max_hospitalisation_days)
+-   [**Avg_debilitation_days**](#avg_debilitation_days)
+-   [**Min_debilitation_days**](#min_debilitation_days)
+-   [**Max_debilitation_days**](#max_debilitation_days)
+-   [**DALY**](#daly)
+-   [**Social_category**](#social_category)
+-   [**Age_category**](#age_category)
+-   [**Gender**](#Gender)
+-   [**Other**](#other)
+-   [**Implementation_social**](#implementation_social)
+-   [**Acquisition_method_social**](#acquisition_method_social)
+-   [**Method_used_paper_social**](#method_used_paper_social)
+-   [**Method_reliability_social**](#method_reliability_social)
+-   [**Method_reliability_refined_social**](#method_reliability_refined_social)
+-   [**Method_reliability_Explanation_social**](#method_reliability_Explanation_social)
+-   [**Method_reliability_Expert_Name_social**](#method_reliability_Expert_Name_social)
 
 ## Descriptions
 # **InvaHealth_ID**
@@ -295,3 +322,114 @@ Mode of transmission of the biohazard/impact:
 - food-borne
 - vector-borne
 
+# **Number_people_exposed**
+
+Number of people exposed to the biohazard / health issue
+
+# **Number_people_exposed_per_year**
+
+Number of people exposed to the biohazard / health issue per year
+
+# **Number_people_affected**
+
+Number of people with health impacts due to the biohazard / health issue
+
+# **Number_people_affected_per_year**
+
+Number of people with health impacts due to the biohazard / health issue per year
+
+# **Mortality_num**
+
+Number of people having died due to the biohazard / health issue
+
+# **Mortality_num_per_year**
+
+Number of people having died due to the biohazard / health issue per year
+
+# **Mortality_prob_specific**
+
+Probability that a person affected by the biohazard will die, specific to the study (reported in the study or proportion from the above)
+
+# **Mortality_prob_global**
+
+Global estimate of the probability that a person affected by the biohazard will die (as reported in the study)
+
+# **Hospitalisation_num**
+
+Number of people hospitalised because of the biohazard / health issue
+
+# **Hospitalisation_num_per_year**
+
+Number of people hospitalised because of the biohazard / health issue per year
+
+# **Avg_hospitalisation_days**
+
+Average number of days a person is hospitalised (when hospitalised)
+
+# **Min_hospitalisation_days**
+
+Minimum number of days a person is hospitalised (when hospitalised)
+
+# **Max_hospitalisation_days**
+
+Maximum number of days a person is hospitalised (when hospitalised)
+
+# **Avg_debilitation_days**
+
+Average number of days a person has to stop working or perform their normal activities
+
+# **Min_debilitation_days**
+
+Minimum number of days a person has to stop working or perform their normal activities
+
+# **Max_debilitation_days**
+
+Maximum number of days a person has to stop working or perform their normal activities
+
+# **DALY**
+
+Disability-adjusted life year
+
+# **Social_category**
+
+Social category of the people impacted, when clearly identified
+
+# **Age_category**
+
+Age category of the people impacted, when clearly identified
+
+# **Gender**
+
+Gender of the people impacted, when clearly identified
+
+# **Other**
+
+Temporary column for other types of impacts we may have forgotten - each will become a separate column in the end
+
+# **Implementation_social**
+
+This states — at the time of the estimation — whether the reported cost was actually observed (i.e., cost actually incurred) or potential (i.e., not incurred but expected cost)
+
+# **Acquisition_method_social**
+
+Method used to obtain the cost estimate: report/estimation directly obtained or derived (using inference methods) from field-based information or extrapolation (cost predicted beyond the original spatial and/or temporal observation range from computational modelling)
+
+# **Method_used_paper_social**
+
+Method used to assess the social variables above as described in the paper
+
+# **Method_reliability_social**
+
+Assessment of the methodological approach used to assess the social variables above as of (i) high reliability if either provided by officially pre-assessed materials (peer-reviewed articles and official reports) or the estimation method was documented, repeatable and/or traceable if provided by other grey literature, or (ii) low reliability if not
+
+# **Method_reliability_refined_social**
+
+Assessment of the methodological approach used to assess the social variables above as of high or low reliability based on the evaluation of the estimation methodology by expert contributors
+
+# **Method_reliability_Explanation_social**
+
+Detailed explanation why a particular methodological approach used to assess the social variables above was deemed as of high or low reliability based on expert opinion
+
+# **Method_reliability_Expert_Name_social**
+
+Complete name and contact details of the expert had deemed the reliability of the entry for the social variables above
