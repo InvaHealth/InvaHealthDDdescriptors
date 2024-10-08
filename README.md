@@ -2,7 +2,7 @@
 
 2024-10-07
 
--   [**Descriptor “InvaHealth_ID”**](#invahealth_id)
+-   <a href="#invahealth_id">**Descriptor “InvaHealth_ID”**</a>
 -   [**Descriptors
     “Availability/Previous\_materials”**](#descriptors-availabilityprevious_materials)
     -   [Question on source literature](#question-on-source-literature)
