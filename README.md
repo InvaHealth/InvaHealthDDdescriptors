@@ -100,7 +100,7 @@
         benefices](#question-on-whether-and-how-reporting-monetary-benefices)
 
 
-# **Descriptor “InvaHealth_ID”**
+# <a href="#invahealth_id">**Descriptor “InvaHealth_ID”**</a>
 
 Public unique identifier, which is formulated as follows: 'IC_x_y' with 'IC' meaning InvaCost, 'x' being the version number of the database, and 'y' being the sequential number attributed following the order of integration of costs in the database.
 
