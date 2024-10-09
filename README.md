@@ -267,9 +267,73 @@ Assessment of the geographical area where the cost occurred as an island (<stron
 
 Botanical continent (<a href="https://github.com/tdwg/wgsrpd/blob/master/109-488-1-ED/2nd%20Edition/tblLevel1.txt">level 1</a>) from the <a href="https://www.tdwg.org/">Biodiversity Information Standards</a> (TDWG).
 
+- <strong>Europe</strong>
+- <strong>Africa</strong>
+- <strong>Asia-Temperate</strong>
+- <strong>Asia-Tropical</strong>
+- <strong>Australasia</strong>
+- <strong>Pacific</strong>
+- <strong>Northern America</strong>
+- <strong>Southern America</strong>
+- <strong>Antarctic</strong>
+
 # **TDWG2**
 
 Botanical subcontinental regions (<a href="https://github.com/tdwg/wgsrpd/blob/master/109-488-1-ED/2nd%20Edition/tblLevel2.txt">level 2</a>) from the <a href="https://www.tdwg.org/">Biodiversity Information Standards</a> (TDWG).
+
+- <strong>Northern Europe</strong>
+- <strong>Middle Europe</strong>
+- <strong>Southwestern Europe</strong>
+- <strong>Southeastern Europe</strong>
+- <strong>Eastern Europe</strong>
+- <strong>Northern Africa</strong>
+- <strong>Macaronesia</strong>
+- <strong>West Tropical Africa</strong>
+- <strong>West-Central Tropical Africa</strong>
+- <strong>Northeast Tropical Africa</strong>
+- <strong>East Tropical Africa</strong>
+- <strong>South Tropical Africa</strong>
+- <strong>Southern Africa</strong>
+- <strong>Middle Atlantic Ocean</strong>
+- <strong>Western Indian Ocean</strong>
+- <strong>Siberia</strong>
+- <strong>Russian Far East</strong>
+- <strong>Middle Asia</strong>
+- <strong>Caucasus</strong>
+- <strong>Western Asia</strong>
+- <strong>Arabian Peninsula</strong>
+- <strong>China</strong>
+- <strong>Mongolia</strong>
+- <strong>Eastern Asia</strong>
+- <strong>Indian Subcontinent</strong>
+- <strong>Indo-China</strong>
+- <strong>Malesia</strong>
+- <strong>Papuasia</strong>
+- <strong>Australia</strong>
+- <strong>New Zealand</strong>
+- <strong>Southwestern Pacific</strong>
+- <strong>South-Central Pacific</strong>
+- <strong>Northwestern Pacific</strong>
+- <strong>North-Central Pacific</strong>
+- <strong>Subarctic America</strong>
+- <strong>Western Canada</strong>
+- <strong>Eastern Canada</strong>
+- <strong>Northwestern U.S.A.</strong>
+- <strong>North-Central U.S.A.</strong>
+- <strong>Northeastern U.S.A.</strong>
+- <strong>Southwestern U.S.A.</strong>
+- <strong>South-Central U.S.A.</strong>
+- <strong>Southeastern U.S.A.</strong>
+- <strong>Mexico</strong>
+- <strong>Central America</strong>
+- <strong>Caribbean</strong>
+- <strong>Northern South America</strong>
+- <strong>Western South America</strong>
+- <strong>Brazil</strong>
+- <strong>Southern South America</strong>
+- <strong>Subantarctic Islands</strong>
+- <strong>Antarctic Continent</strong>
+
 
 # **Official_country**
 
@@ -495,7 +559,7 @@ Detailed explanation why a particular methodological approach used to assess the
 
 # **Method_reliability_Expert_Name_social**
 
-Complete name and contact details of the expert had deemed the reliability of the entry for the social variables above.
+Complete name and contact details of the expert who deemed the reliability of the entry for the social variables above.
 
 # **Type_Stakeholder**
 
@@ -658,11 +722,11 @@ Year of the <em>Currency</em> value (not the year of the cost occurrence) consid
 
 # **Type_of_applicable_year**
 
-Assessment of the applicable year as effective if explicitly stated by the authors or publication year if no explicit information was provided in the reference analysed.
+Assessment of the applicable year as <strong>effective</strong> if explicitly stated by the authors or <strong>publication year</strong> if no explicit information was provided in the reference analysed.
 
 # **Implementation**
 
-At the time of the estimation, whether the reported cost was actually observed (i.e., cost <strong>actually</strong> incurred) or <strong>potential</strong> (i.e., not incurred but expected cost)
+At the time of the estimation, whether the reported cost was observed (i.e., cost <strong>actually</strong> incurred) or <strong>potential</strong> (i.e., not incurred but expected cost)
 
 # **Acquisition_method**
 
@@ -690,7 +754,7 @@ Assessment of the methodological approach used for cost estimation as:
 
 # **Method_reliability_refined**
 
-Assessment of the methodological approach used for cost estimation as of high or low reliability based on the evaluation of the estimation methodology by expert contributors.
+Assessment of the methodological approach used for cost estimation as high or low reliability based on the evaluation of the estimation methodology by expert contributors.
 
 # **Method_reliability_Explanation**
 
@@ -698,7 +762,7 @@ Detailed explanation why a particular methodological approach used for cost esti
 
 # **Method_reliability_Expert_Name**
 
-Complete name and contact details of the expert had deemed the reliability of the cost entry.
+Complete name and contact details of the expert who deemed the reliability of the cost entry.
 
 # **Overlap**
 
@@ -718,7 +782,7 @@ When necessary, narrative elements deemed important either to understand the cos
 
 # **Initial_contributors_names**
 
-Name of contributor(s) having collated the cost entry.
+Name of contributor(s) who collated the cost entry.
 
 # **Double_checking**
 
