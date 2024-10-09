@@ -162,7 +162,7 @@ Year of publication of the reference where the cost entry is reported (format: Y
 
 # **Language**
 
-Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the <em>InvaCost</em> database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
+Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the <a href="https://github.com/InvaCost"><em>InvaCost</em></a> database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
 
 # **Type_of_material**
 
@@ -635,15 +635,15 @@ Cost estimate directly retrieved from the analysed reference.
 
 # **Min_Raw_cost_estimate_original_currency**
 
-Lower boundary of the <em>Raw_cost_estimate_original_currency</em> (if a range of estimates was provided by the authors).
+Lower boundary of the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> (if a range of estimates was provided by the authors).
 
 # **Max_Raw_cost_estimate_original_currency**
 
-Upper boundary of the <em>Raw_cost_estimate_original_currency</em> (if a range of estimates was provided by the authors).
+Upper boundary of the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> (if a range of estimates was provided by the authors).
 
 # **Raw_cost_estimate_2023_USD_exchange_rate**
 
-Raw cost estimate in the original currency standardised from original <em>Currency</em> and <em>Applicable_year</em> to 2023 US$ based on the official market exchange rate (original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960">World Bank Open Data</a>.
+Raw cost estimate in the original currency standardised from original <em>[Currency][Raw_cost_estimate_original_currency](#currency)</em> and <em>[Applicable_year](#applicable_year)</em> to 2023 US$ based on the official market exchange rate (original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960">World Bank Open Data</a>.
 
 # **Raw_cost_estimate_2023_USD_PPP**
 
@@ -651,21 +651,21 @@ Raw cost estimate in the original currency standardised to 2023 US$ based on the
 
 # **Cost_estimate_per_year_original_currency**
 
-Raw cost estimate transformed to a cost estimate per year of the <em>Period_of_estimation</em>, obtained by dividing the <em>Raw_cost_estimate_original_currency</em> by the number of years between the <em>Probable_starting_year_completed</em> and <em>Probable_ending_year_completed</em>. Blank cells are those that have no information in at least one of these two previous columns.
+Raw cost estimate transformed to a cost estimate per year of the <em>[Period_of_estimation](#period_of_estimation)</em>, obtained by dividing the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> by the number of years between the <em>[Probable_starting_year_completed](#probable_starting_year_completed)</em> and <em>[Probable_ending_year_completed](#probable_ending_year_completed)</em>. Blank cells are those that have no information in at least one of these two previous columns.
 
 # **Cost_estimate_per_year_2023_USD_exchange_rate**
 
-Cost estimate per year standardised from original <em>Currency</em> and <em>Applicable_year</em> to 2023 USD based on the official market exchange rate (original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960">World Bank Open Data</a>. Blank cells are those that have no information in at least one of these two previous columns.
+Cost estimate per year standardised from original <em>[Currency](#currency)</em> and <em>Applicable_year</em> to 2023 USD based on the official market exchange rate (original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960">World Bank Open Data</a>. Blank cells are those that have no information in at least one of these two previous columns.
 
 # **Cost_estimate_per_year_2023_USD_PPP**
 
-Cost estimate per year original currency standardised from original <em>Currency</em> and <em>Applicable_year</em> to 2023 USD based on purchase power parity (PPP; original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990">World Bank Open Data</a> and the <a href="https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm">Organisation for Economic Cooperation and Development</a>. Blank cells are those that have no information in at least one of these two previous column.
+Cost estimate per year original currency standardised from original <em>[Currency](#currency)</em> and <em>[Applicable_year](#applicable_year)</em> to 2023 USD based on purchase power parity (PPP; original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990">World Bank Open Data</a> and the <a href="https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm">Organisation for Economic Cooperation and Development</a>. Blank cells are those that have no information in at least one of these two previous column.
 
 # **Currency**
 
-Original currency of the <em>Raw_cost</em> estimate as extracted in the original reference and standardised (when possible) using internationally recognized <a href="https://www.iso.org/fr/iso-4217-currency-codes.html">ISO 4217</a> codes.
+Original currency of the <em>[Raw_cost](#raw_cost)</em> estimate as extracted in the original reference and standardised (when possible) using internationally recognized <a href="https://www.iso.org/fr/iso-4217-currency-codes.html">ISO 4217</a> codes.
 
-Fifty currencies are currently recorded in <em>InvaCost</em>:
+Fifty currencies are currently recorded in <a href="https://github.com/InvaCost"><em>InvaCost</em></a>:
 - ARS (Argentine peso), 
 - AUD (Australian Dollars),
 - CAD (Canadian Dollars),
@@ -718,7 +718,7 @@ Fifty currencies are currently recorded in <em>InvaCost</em>:
 
 # **Applicable_year**
 
-Year of the <em>Currency</em> value (not the year of the cost occurrence) considered for the conversion/standardization of the cost estimate.
+Year of the <em>[Currency](#currency)</em> value (not the year of the cost occurrence) considered for the conversion/standardisation of the cost estimate.
 
 # **Type_of_applicable_year**
 
@@ -739,7 +739,7 @@ Method used to obtain the cost estimate:
 - <strong>pre-emergence_management</strong>: monetary investments for preventing health issues in an area - including quarantine or border inspection, risk analyses, biosecurity management, etc.),
 - <strong>post-emergence_management</strong>: money spent for managing health issues in invaded areas - including control, eradication, containment), knowledge funding (money allocated to all actions and operations that could be of interest at all steps of management at pre- and post-emergence stages - including administration, communication, education, research, etc.), or
 - <strong>mixed</strong>: when costs include at least (and without possibility to disentangle the specific proportion of) two of the previous categories;
-- <strong>unspecified</strong>: every management cost (in the <em>Type_of_cost</em> column) for which the exact nature of cost was not clearly defined 
+- <strong>unspecified</strong>: every management cost (in the <em>[Type_of_cost](#type_of_cost)</em> column) for which the exact nature of cost was not clearly defined 
 - <strong>NA</strong>: every entry that has partly or fully associated with damage costs
 
 # **Method_used_paper**
