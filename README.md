@@ -1,6 +1,6 @@
 # InvaHealth database descriptors
 
-last updated: 2024-10-08
+last updated: 2024-10-09
 
 ## Column Names
 
