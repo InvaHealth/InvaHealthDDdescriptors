@@ -739,7 +739,7 @@ Method used to obtain the cost estimate:
 - <strong>pre-emergence_management</strong>: monetary investments for preventing health issues in an area - including quarantine or border inspection, risk analyses, biosecurity management, etc.),
 - <strong>post-emergence_management</strong>: money spent for managing health issues in invaded areas - including control, eradication, containment), knowledge funding (money allocated to all actions and operations that could be of interest at all steps of management at pre- and post-emergence stages - including administration, communication, education, research, etc.), or
 - <strong>mixed</strong>: when costs include at least (and without possibility to disentangle the specific proportion of) two of the previous categories;
-- <strong>unspecified</strong>: every management cost (in the <em>[Type_of_cost](#type_of_cost)</em> column) for which the exact nature of cost was not clearly defined 
+- <strong>unspecified</strong>: every management cost (in the <em>[Type_1_of_cost](#type_1_of_cost)</em> column) for which the exact nature of cost was not clearly defined 
 - <strong>NA</strong>: every entry that has partly or fully associated with damage costs
 
 # **Method_used_paper**
