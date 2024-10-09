@@ -663,7 +663,7 @@ Cost estimate per year original currency standardised from original <em>[Currenc
 
 # **Currency**
 
-Original currency of the <em>[Raw_cost](#raw_cost)</em> estimate as extracted in the original reference and standardised (when possible) using internationally recognized <a href="https://www.iso.org/fr/iso-4217-currency-codes.html">ISO 4217</a> codes.
+Original currency of the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> estimate as extracted in the original reference and standardised (when possible) using internationally recognized <a href="https://www.iso.org/fr/iso-4217-currency-codes.html">ISO 4217</a> codes.
 
 Fifty currencies are currently recorded in <a href="https://github.com/InvaCost"><em>InvaCost</em></a>:
 - ARS (Argentine peso), 
