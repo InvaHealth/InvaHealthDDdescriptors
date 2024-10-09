@@ -649,7 +649,7 @@ The sub-categories of Type 1, roughly divided into <strong>direct</strong> and <
 - <strong>population control</strong>
 - <strong>prevention (ecological and/or epidemiological, includes communication campaigns)</strong>
 - <strong>non-medical expenses (out-of-pocket costs)</strong>
-- <strong>losses of non-market values (quality of life)</strong>
+- <strong>lost non-market values (quality of life)</strong>
 - <strong>personal protection</strong>
 - <strong>losses (in tourism, trade, economic growth)</strong>
 - <strong>research and funding</strong>
