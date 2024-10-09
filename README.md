@@ -52,11 +52,24 @@ last updated: 2024-10-09
 -   [**Associated_reservoir**](#associated_reservoir)
 -   [**Associated_facilitator**](#associated_facilitator)
 -   [**Mode_transmission**](#mode_transmission)
+-   [**Number_people_exposed**](#number_people_exposed)
+-   [**Min_Number_people_exposed**](#min_number_people_exposed)
+-   [**Max_Number_people_exposed**](#max_number_people_exposed)
 -   [**Number_people_exposed_per_year**](#number_people_exposed_per_year)
+-   [**Min_Number_people_exposed_per_year**](#min_number_people_exposed_per_year)
+-   [**Max_Number_people_exposed_per_year**](#max_number_people_exposed_per_year)
 -   [**Number_people_affected**](#number_people_affected)
+-   [**Min_Number_people_affected**](#min_number_people_affected)
+-   [**Max_Number_people_affected**](#max_number_people_affected)
 -   [**Number_people_affected_per_year**](#number_people_affected_per_year)
+-   [**Min_Number_people_affected_per_year**](#min_number_people_affected_per_year)
+-   [**Max_Number_people_affected_per_year**](#max_number_people_affected_per_year)
 -   [**Mortality_num**](#mortality_num)
+-   [**Min_Mortality_num**](#min_mortality_num)
+-   [**Max_Mortality_num**](#max_mortality_num)
 -   [**Mortality_num_per_year**](#mortality_num_per_year)
+-   [**Min_Mortality_num_per_year**](#min_mortality_num_per_year)
+-   [**Max_Mortality_num_per_year**](#max_mortality_num_per_year)
 -   [**Mortality_prob_specific**](#mortality_prob_specific)
 -   [**Mortality_prob_global**](#mortality_prob_global)
 -   [**Hospitalisation_num**](#hospitalisation_num)
@@ -450,25 +463,73 @@ Mode of transmission of the biohazard/impact:
 
 Number of people exposed to the biohazard / health issue.
 
+# **Min_Number_people_exposed**
+
+Lower bound of number of people exposed to the biohazard / health issue.
+
+# **Max_Number_people_exposed**
+
+Upper bound of number of people exposed to the biohazard / health issue.
+
 # **Number_people_exposed_per_year**
 
 Number of people exposed to the biohazard / health issue per year.
+
+# **Min_Number_people_exposed_per_year**
+
+Lower bound of number of people exposed to the biohazard / health issue per year.
+
+# **Max_Number_people_exposed_per_year**
+
+Upper bound of number of people exposed to the biohazard / health issue per year.
 
 # **Number_people_affected**
 
 Number of people with health impacts due to the biohazard / health issue.
 
+# **Min_Number_people_affected**
+
+Lower bound of number of people with health impacts due to the biohazard / health issue.
+
+# **Max_Number_people_affected**
+
+Upper bound of number of people with health impacts due to the biohazard / health issue.
+
 # **Number_people_affected_per_year**
 
 Number of people with health impacts due to the biohazard / health issue per year.
 
+# **Min_Number_people_affected_per_year**
+
+Lower bound of number of people with health impacts due to the biohazard / health issue per year.
+
+# **Max_Number_people_affected_per_year**
+
+Upper bound of number of people with health impacts due to the biohazard / health issue per year.
+
 # **Mortality_num**
 
-Number of people having died due to the biohazard / health issue.
+Number of people who died due to the biohazard / health issue.
+
+# **Min_Mortality_num**
+
+Lower bound of number of people who died due to the biohazard / health issue.
+
+# **Max_Mortality_num**
+
+Upper bound of number of people who died due to the biohazard / health issue.
 
 # **Mortality_num_per_year**
 
-Number of people having died due to the biohazard / health issue per year.
+Number of people who died due to the biohazard / health issue per year.
+
+# **Min_Mortality_num_per_year**
+
+Lower bound of number of people who died due to the biohazard / health issue per year.
+
+# **Max_Mortality_num_per_year**
+
+Upper bound of number of people who died due to the biohazard / health issue per year.
 
 # **Mortality_prob_specific**
 
@@ -476,7 +537,7 @@ Probability that a person affected by the biohazard will die, specific to the st
 
 # **Mortality_prob_global**
 
-Global estimate of the probability that a person affected by the biohazard will die (as reported in the study).
+Global estimate of the probability that a person affected by the biohazard / health condition will die (as reported in the study).
 
 # **Hospitalisation_num**
 
