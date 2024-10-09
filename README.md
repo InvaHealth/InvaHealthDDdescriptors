@@ -261,7 +261,7 @@ The urban nature of study sites is founded purely from a 'habitat' perspective (
 
 # **Island**
 
-Assessment of the geographical area where the cost occurred as an island (<strong>yes</strong>) or not (<strong>no</strong>); use <strong>NA</strong> when the cost information is not clearly provided, unknown, or comprises both island and mainland.
+Assessment of the geographical area where the cost occurred as an island (<strong>yes</strong>) or not (<strong>no</strong>); use <strong>NA</strong> when the cost information is not clearly provided, unknown, or comprises both island and mainland. While debatable, InvaHealth considers Australia to be an island.
 
 # **TDWG1**
 
