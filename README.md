@@ -643,6 +643,18 @@ The two main types of costs:
 
 The sub-categories of Type 1, roughly divided into <strong>direct</strong> and <strong>indirect</strong> costs, with some specificities depending on Type 1.
 
+- <strong>direct medical costs</strong>
+- <strong>indirect costs (wage losses, debt, lost productivity, disability benefits)</strong>
+- <strong>surveillance (ecological and/or epidemiological)</strong>
+- <strong>population control</strong>
+- <strong>prevention (ecological and/or epidemiological, includes communication campaigns)</strong>
+- <strong>non-medical expenses (out-of-pocket costs)</strong>
+- <strong>losses of non-market values (quality of life)</strong>
+- <strong>personal protection</strong>
+- <strong>losses (in tourism, trade, economic growth)</strong>
+- <strong>research and funding</strong>
+- <strong>community-based population control</strong>
+
 # **Type_3_of_cost**
 
 The specific thing that cost money (e.g., medicines, TV campaign, name of eradication programme, etc.).
