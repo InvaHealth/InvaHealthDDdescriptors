@@ -108,6 +108,8 @@ last updated: 2024-10-09
 -   [**Implementation**](#implementation)
 -   [**Acquisition_method**](#acquisition_method)
 -   [**Management_type**](#management_type)
+-   [**Management_present**](#management_present)
+-   [**Natural_present**](#natural_present)
 -   [**Method_used_paper**](#method_used_paper)
 -   [**Method_reliability**](#method_reliability)
 -   [**Method_reliability_refined**](#method_reliability_refined)
@@ -741,6 +743,14 @@ Method used to obtain the cost estimate:
 - <strong>mixed</strong>: when costs include at least (and without possibility to disentangle the specific proportion of) two of the previous categories;
 - <strong>unspecified</strong>: every management cost (in the <em>[Type_1_of_cost](#type_1_of_cost)</em> column) for which the exact nature of cost was not clearly defined 
 - <strong>NA</strong>: every entry that has partly or fully associated with damage costs
+
+# **Management_present**
+
+Indicates if there is a management implemented to estimate the damage/loss cost if this entry. Indicate '<strong>no</strong>' if no management action was implemented; indicate 'type of management' (e.g. 'biosecurity', 'eradication', 'natural event', etc.) if there is one.
+
+# **Natural_present**
+
+Indicates if there is a change in natural conditions. Indicate '<strong>no</strong>' if there was no change in natural conditions; indicate 'type of natural change' (e.g. 'temperature increase', 'flooding', etc.) if there is one.
 
 # **Method_used_paper**
 
