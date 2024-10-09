@@ -345,7 +345,7 @@ Non-administrative name of a region where the impact was recorded, when more app
 
 # **ISO_3166_1_alpha_3**
 
-Three-letter country codes defined in <a href="https://www.iso.org/obp/ui/#search">ISO 3166-1</a>, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest
+Three-letter country codes defined in <a href="https://www.iso.org/obp/ui/#search">ISO 3166-1</a>, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest. See the related R code to do this automatically for several languages available in the <a href="https://github.com/InvaHealth/countryCodes">countryCodes</a> repository.
 
 # **ISO_3166_2_alpha_3**
 
