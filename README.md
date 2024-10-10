@@ -720,6 +720,8 @@ Upper boundary of the <em>[Raw_cost_estimate_original_currency](#raw_cost_estima
 
 Raw cost estimate in the original currency standardised from original <em>[Currency][Raw_cost_estimate_original_currency](#currency)</em> and <em>[Applicable_year](#applicable_year)</em> to 2023 US$ based on the official market exchange rate (original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.FCRF?end=2017&start=1960">World Bank Open Data</a>.
 
+Use the script available in the <a href="https://github.com/InvaHealth/currConvert/">currConvert</a> repository to convert costs into USD 2023.
+
 # **Raw_cost_estimate_2023_USD_PPP**
 
 Raw cost estimate in the original currency standardised to 2023 US$ based on the official Purchase Power Parity (PPP; original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990)">World Bank Open Data</a> and the <a href="https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm">Organisation for Economic Cooperation and Development</a>.
