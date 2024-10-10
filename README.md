@@ -726,6 +726,8 @@ Use the script available in the <a href="https://github.com/InvaHealth/currConve
 
 Raw cost estimate in the original currency standardised to 2023 US$ based on the official Purchase Power Parity (PPP; original currency unit per US$) provided by the <a href="https://data.worldbank.org/indicator/PA.NUS.PPP?end=2017&start=1990)">World Bank Open Data</a> and the <a href="https://data.oecd.org/conversion/purchasing-powerparities-ppp.htm">Organisation for Economic Cooperation and Development</a>.
 
+Use the script available in the <a href="https://github.com/InvaHealth/currConvert/">currConvert</a> repository to correct for purchase power parity.
+
 # **Cost_estimate_per_year_original_currency**
 
 Raw cost estimate transformed to a cost estimate per year of the <em>[Period_of_estimation](#period_of_estimation)</em>, obtained by dividing the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> by the number of years between the <em>[Probable_starting_year_completed](#probable_starting_year_completed)</em> and <em>[Probable_ending_year_completed](#probable_ending_year_completed)</em>. Blank cells are those that have no information in at least one of these two previous columns.
