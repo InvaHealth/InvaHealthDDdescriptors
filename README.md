@@ -1,6 +1,6 @@
 # InvaHealth database descriptors
 
-last updated: 2024-10-09
+last updated: 2024-10-27
 
 ## Column Names
 
@@ -141,15 +141,17 @@ Public unique identifier, which is formulated as follows: 'IC_x_y' with 'IC' mea
 
 # **Repository**
 
-Literature engine (<a href="https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fmode%3DNextgen%26action%3Dtransfer%26path%3D%252Fwos%26DestApp%3DUA&referrer=mode%3DNextgen%26path%3D%252Fwos%26DestApp%3DUA%26action%3Dtransfer&roaming=true">Web of Science</a>, <a href="https://scholar.google.com">Google Scholar</a>, <a href="https://www.google.com">Google search engine</a>, <a href="https://pubmed.ncbi.nlm.nih.gov">Pubmed</a>, <a href="https://scielo.org/en/">Scielo</a>) or original source (targeted collection) from which the reference was collected (see <a href="https://doi.org/10.1038/s41597-020-00586-z">Diagne et al. 2020 <em>Scientific Data</em></a> for further details); cells are left empty when no repository was specified or the reference was shared by external users that did not give any information about this.
+Literature search engine (<a href="https://access.clarivate.com/login?app=wos&alternative=true&shibShireURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fauth%3DShibboleth&shibReturnURL=https:%2F%2Fwww.webofknowledge.com%2F%3Fmode%3DNextgen%26action%3Dtransfer%26path%3D%252Fwos%26DestApp%3DUA&referrer=mode%3DNextgen%26path%3D%252Fwos%26DestApp%3DUA%26action%3Dtransfer&roaming=true">Web of Science</a>, <a href="https://scholar.google.com">Google Scholar</a>, <a href="https://www.google.com">Google search engine</a>, <a href="https://pubmed.ncbi.nlm.nih.gov">Pubmed</a>, <a href="https://scielo.org/en/">Scielo</a>) or original source (targeted collection) from which the reference was collected (see <a href="https://doi.org/10.1038/s41597-020-00586-z">Diagne et al. 2020 <em>Scientific Data</em></a> for further details).
+
+Cells are left empty when no repository was specified or the reference was shared by external users that did not give any information about this.
 
 # **Reference_ID**
 
-Identifier for the reference where the cost entry is reported; note that this field is currently being improved internally to have a consistent terminology across references within the database.
+Identifier for the reference where the cost entry is reported; this field is currently being improved internally to have a consistent terminology across references within the database.
 
 # **InvaCost_Reference_ID**
 
-Identifier for the reference where a cost entry is reported In <a href="https://github.com/InvaCost"><em>InvaCost</em></a>; this field is currently being improved internally to have a consistent terminology across references within the database.
+Identifier for the reference where a cost entry is reported in <a href="https://github.com/InvaCost"><em>InvaCost</em></a>; this field is currently being improved internally to have a consistent terminology across references within the database.
 
 # **InvaPact_Reference_ID**
 
@@ -169,7 +171,7 @@ Authors of the reference where the cost entry is reported.
 
 # **Abstract**
 
-If existing/accessible, the abstract of the reference where the cost entry is reported.
+If existing/accessible, the Abstract/summary of the reference where the cost entry is reported.
 
 # **Publication_year**
 
@@ -177,7 +179,7 @@ Year of publication of the reference where the cost entry is reported (format: Y
 
 # **Language**
 
-Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the <a href="https://github.com/InvaCost"><em>InvaCost</em></a> database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian.
+Main language used in the original reference reporting the cost entry; 22 languages are currently recorded in the <a href="https://github.com/InvaCost"><em>InvaCost</em></a> database: Catalan, Chinese, Croatian, Czech, Danish, Dutch, English, Finnish, French, Galician, German, Greek, Hindi, Icelandic, Italian, Japanese, Norwegian, Portuguese, Russian, Spanish, Swedish, Ukrainian. Use the English name of the language.
 
 # **Type_of_material**
 
@@ -294,7 +296,7 @@ Botanical continent (<a href="https://github.com/tdwg/wgsrpd/blob/master/109-488
 
 # **TDWG2**
 
-Botanical subcontinental regions (<a href="https://github.com/tdwg/wgsrpd/blob/master/109-488-1-ED/2nd%20Edition/tblLevel2.txt">level 2</a>) from the <a href="https://www.tdwg.org/">Biodiversity Information Standards</a> (TDWG).
+Botanical subcontinental region (<a href="https://github.com/tdwg/wgsrpd/blob/master/109-488-1-ED/2nd%20Edition/tblLevel2.txt">level 2</a>) from the <a href="https://www.tdwg.org/">Biodiversity Information Standards</a> (TDWG).
 
 - <strong>Northern Europe</strong>
 - <strong>Middle Europe</strong>
@@ -352,7 +354,7 @@ Botanical subcontinental regions (<a href="https://github.com/tdwg/wgsrpd/blob/m
 
 # **Official_country**
 
-Country where the impact occurred; sometimes this is not congruent with the geographic region as some territories (e.g., overseas areas) are located in another continent than their official country of attachment; based on information from <a href="http://www.naturalearthdata.com/">here</a> as a reference for country names.
+Country where the impact occurred; sometimes this is not congruent with the geographic region because some territories (e.g., overseas areas) are located in another continent than their official country of attachment; based on information from <a href="http://www.naturalearthdata.com/">here</a> as a reference for country names.
 
 # **Region**
 
@@ -360,7 +362,7 @@ Non-administrative name of a region where the impact was recorded, when more app
 
 # **ISO_3166_1_alpha_3**
 
-Three-letter country codes defined in <a href="https://www.iso.org/obp/ui/#search">ISO 3166-1</a>, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest. See the related R code to do this automatically for several languages available in the <a href="https://github.com/InvaHealth/countryCodes">countryCodes</a> repository.
+Three-letter country codes defined in <a href="https://www.iso.org/obp/ui/#search">ISO 3166-1</a>, part of the ISO 3166 standard published by the International Organization for Standardization (ISO), to represent countries, dependent territories, and special areas of geographical interest. See the related R code to do this automatically for several source languages available in the <a href="https://github.com/InvaHealth/countryCodes">countryCodes</a> repository.
 
 # **ISO_3166_2_alpha_3**
 
@@ -461,75 +463,75 @@ Mode of transmission of the biohazard/impact:
 
 # **Number_people_exposed**
 
-Number of people exposed to the biohazard / health issue.
+Number of people exposed to the biohazard / health issue (or mean/median if [upper](#max_number_people_exposed) and [lower](#min_number_people_exposed) bounds are indicated).
 
 # **Min_Number_people_exposed**
 
-Lower bound of number of people exposed to the biohazard / health issue.
+Lower bound of number of people exposed to the biohazard / health issue, if provided.
 
 # **Max_Number_people_exposed**
 
-Upper bound of number of people exposed to the biohazard / health issue.
+Upper bound of number of people exposed to the biohazard / health issue, if provided.
 
 # **Number_people_exposed_per_year**
 
-Number of people exposed to the biohazard / health issue per year.
+Number of people exposed to the biohazard / health issue per year (or mean/median if [upper](#max_number_people_exposed_per_year) and [lower](#min_number_people_exposed_per_year) bounds are indicated).
 
 # **Min_Number_people_exposed_per_year**
 
-Lower bound of number of people exposed to the biohazard / health issue per year.
+Lower bound of number of people exposed to the biohazard / health issue per year, if provided.
 
 # **Max_Number_people_exposed_per_year**
 
-Upper bound of number of people exposed to the biohazard / health issue per year.
+Upper bound of number of people exposed to the biohazard / health issue per year, if provided.
 
 # **Number_people_affected**
 
-Number of people with health impacts due to the biohazard / health issue.
+Number of people with health impacts due to the biohazard / health issue (or mean/median if [upper](#max_number_people_affected) and [lower](#min_number_people_affected) bounds are indicated).
 
 # **Min_Number_people_affected**
 
-Lower bound of number of people with health impacts due to the biohazard / health issue.
+Lower bound of number of people with health impacts due to the biohazard / health issue, if provided.
 
 # **Max_Number_people_affected**
 
-Upper bound of number of people with health impacts due to the biohazard / health issue.
+Upper bound of number of people with health impacts due to the biohazard / health issue, if provided.
 
 # **Number_people_affected_per_year**
 
-Number of people with health impacts due to the biohazard / health issue per year.
+Number of people with health impacts due to the biohazard / health issue per year (or mean/median if [upper](#max_number_people_affected_per_year) and [lower](#min_number_people_affected_per_year) bounds are indicated).
 
 # **Min_Number_people_affected_per_year**
 
-Lower bound of number of people with health impacts due to the biohazard / health issue per year.
+Lower bound of number of people with health impacts due to the biohazard / health issue per year, if provided.
 
 # **Max_Number_people_affected_per_year**
 
-Upper bound of number of people with health impacts due to the biohazard / health issue per year.
+Upper bound of number of people with health impacts due to the biohazard / health issue per year, if provided.
 
 # **Mortality_num**
 
-Number of people who died due to the biohazard / health issue.
+Number of people who died due to the biohazard / health issue (or mean/median if [upper](#max_mortality_num) and [lower](#min_mortality_num) bounds are indicated).
 
 # **Min_Mortality_num**
 
-Lower bound of number of people who died due to the biohazard / health issue.
+Lower bound of number of people who died due to the biohazard / health issue, if provided.
 
 # **Max_Mortality_num**
 
-Upper bound of number of people who died due to the biohazard / health issue.
+Upper bound of number of people who died due to the biohazard / health issue, if provided.
 
 # **Mortality_num_per_year**
 
-Number of people who died due to the biohazard / health issue per year.
+Number of people who died due to the biohazard / health issue per year (or mean/median if [upper](#max_mortality_num_per_year) and [lower](#min_mortality_num_per_year) bounds are indicated).
 
 # **Min_Mortality_num_per_year**
 
-Lower bound of number of people who died due to the biohazard / health issue per year.
+Lower bound of number of people who died due to the biohazard / health issue per year, if provided.
 
 # **Max_Mortality_num_per_year**
 
-Upper bound of number of people who died due to the biohazard / health issue per year.
+Upper bound of number of people who died due to the biohazard / health issue per year, if provided.
 
 # **Mortality_prob_specific**
 
@@ -553,11 +555,11 @@ Average number of days a person is hospitalised (when hospitalised).
 
 # **Min_hospitalisation_days**
 
-Minimum number of days a person is hospitalised (when hospitalised).
+Minimum number of days a person is hospitalised (when hospitalised), if provided.
 
 # **Max_hospitalisation_days**
 
-Maximum number of days a person is hospitalised (when hospitalised).
+Maximum number of days a person is hospitalised (when hospitalised), if provided.
 
 # **Avg_debilitation_days**
 
@@ -565,11 +567,11 @@ Average number of days a person has to stop working or perform their normal acti
 
 # **Min_debilitation_days**
 
-Minimum number of days a person has to stop working or perform their normal activities.
+Minimum number of days a person has to stop working or perform their normal activities, if provided.
 
 # **Max_debilitation_days**
 
-Maximum number of days a person has to stop working or perform their normal activities.
+Maximum number of days a person has to stop working or perform their normal activities, if provided.
 
 # **DALY**
 
@@ -577,15 +579,15 @@ Maximum number of days a person has to stop working or perform their normal acti
 
 # **Social_category**
 
-Social category of the people impacted, when clearly identified.
+Social category of the people impacted, when clearly identified (e.g., <strong>poor</strong>, <strong>middle class</strong>, <strong>wealthy</strong>, <strong>immigrants</strong>, <strong>minority</strong>.
 
 # **Age_category**
 
-Age category of the people impacted, when clearly identified.
+Age category of the people impacted, when clearly identified (e.g., <strong>neonates</strong>, <strong>young children</strong>, <strong>children</strong>, <strong>adolescents</strong>, <strong>adults</strong>, <strong>older adults</strong>).
 
 # **Gender**
 
-(Main) gender of the people impacted, when clearly identified.
+(Main) gender of the people impacted (<strong>M</strong> or <strong>F</strong>), when clearly identified.
 
 # **Other**
 
@@ -600,7 +602,7 @@ This states — at the time of the estimation — whether the reported cost was 
 Method used to obtain the cost estimate:
 - <strong>report/estimation</strong> directly obtained or
 - <strong>derived</strong> (using inference methods) from field-based information or
-- <strong>extrapolation</strong> (cost predicted beyond the original spatial and/or temporal observation range from computational modelling).
+- <strong>extrapolation</strong> (cost predicted beyond the original spatial and/or temporal observation range from modelling).
 
 # **Method_used_paper_social**
 
@@ -622,7 +624,7 @@ Detailed explanation why a particular methodological approach used to assess the
 
 # **Method_reliability_Expert_Name_social**
 
-Complete name and contact details of the expert who deemed the reliability of the entry for the social variables above.
+Complete name and contact details (e.g., institution, e-mail, webpage) of the expert who deemed the reliability of the entry for the social variables above.
 
 # **Type_Stakeholder**
 
@@ -630,7 +632,7 @@ The general type of stakeholder - a fixed list (e.g., <strong>health provider</s
 
 # **Stakeholder**
 
-The actual stakeholder, e.g., the state or a company, the boundaries of the community (country, city, friends, ...).
+The actual stakeholder, e.g., state or a company, boundaries of the community (country, city, friends, etc.).
 
 # **Type_1_of_cost**
 
@@ -661,11 +663,11 @@ The specific thing that cost money (e.g., medicines, TV campaign, name of eradic
 
 # **Unspecified_cost**
 
-Temporary column for other types of costs we may have forgotten - each will become a separate column in the end.
+Temporary column for other types of costs we might have forgotten - each will become a separate column in the end.
 
 # **Verbatim_evidence**
 
-Extract from the article evidencing from where the information comes.
+Extract from the article indicating from where the information comes.
 
 # **Fixed_variable**
 
@@ -682,15 +684,15 @@ If provided, the exact period of time covered by the cost, otherwise the raw for
 Two options: 
 - <strong>period</strong> if the cost is given for a period exceeding a year; or
 - <strong>year</strong> if the cost is given yearly or for a period up to one year. 
-- <strong>unspecified</strong>: if no information is given or guessable from the source
+- <strong>unspecified</strong>: if no information is given or can be guessed from the source
 
 # **Probable_starting_year**
 
-Year in which the cost is known or assumed to have started to occurred. When not explicitly provided by the authors, indicate <strong>unspecified</strong>; in the case of a cost estimate provided for a one-year period straddling two calendar years, use the latest year of the cost occurrence.
+Year in which the cost is known or assumed to have started to occur. When not explicitly provided by the authors, indicate <strong>unspecified</strong>; in the case of a cost estimate provided for a one-year period straddling two calendar years, use the <em>latest</em> year of the cost occurrence.
 
 # **Probable_ending_year**
 
-Year in which the cost is known or assumed to have ended. When not explicitly provided by the authors, indicate <strong>unspecified</strong>; in the case of a cost estimate provided for a one-year period straddling two calendar years, use the latest year of the cost occurrence.
+Year in which the cost is known or assumed to have ended. When not explicitly provided by the authors, indicate <strong>unspecified</strong>; in the case of a cost estimate provided for a one-year period straddling two calendar years, use the <em>latest</em> year of the cost occurrence.
 
 # **Probable_starting_year_adjusted**
 
@@ -811,7 +813,7 @@ At the time of the estimation, whether the reported cost was observed (i.e., cos
 
 Method used to obtain the cost estimate:
 - <strong>report/estimation</strong> directly obtained or derived (using inference methods) from field-based information or
-- <strong>extrapolation</strong> (cost predicted beyond the original spatial and/or temporal observation range from computational modelling)
+- <strong>extrapolation</strong> (cost predicted beyond the original spatial and/or temporal observation range from modelling)
 
 # **Management_type**
 
@@ -845,11 +847,11 @@ Assessment of the methodological approach used for cost estimation as high or lo
 
 # **Method_reliability_Explanation**
 
-Detailed explanation why a particular methodological approach used for cost estimation was deemed as of high or low reliability based on expert opinion.
+Detailed explanation why a particular approach used for cost estimation was deemed high or low reliability based on expert opinion.
 
 # **Method_reliability_Expert_Name**
 
-Complete name and contact details of the expert who deemed the reliability of the cost entry.
+Complete name and contact details (e.g., institution, e-mail, webpage) of the expert who deemed the reliability of the cost entry.
 
 # **Overlap**
 
@@ -874,6 +876,6 @@ Name of contributor(s) who collated the cost entry.
 # **Double_checking**
 
 Assessment of cost information collated (by at least) two contributors;
-- <strong>yes</strong> if it has been double checked,
+- <strong>yes</strong> if it has been double-checked,
 - <strong>no</strong> if it has not.
 The names/contacts of each contributor are provided in the <em>Initial_contributors_names</em> column.
