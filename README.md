@@ -747,7 +747,7 @@ Cost estimate per year original currency standardised from original <em>[Currenc
 Original currency of the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> estimate as extracted in the original reference and standardised (when possible) using internationally recognized <a href="https://www.iso.org/fr/iso-4217-currency-codes.html">ISO 4217</a> codes.
 
 Fifty currencies are currently recorded in <a href="https://github.com/InvaCost"><em>InvaCost</em></a>:
-- ARS (Argentine peso)
+- ARS (Argentine Peso)
 - AUD (Australian Dollars)
 - CAD (Canadian Dollars)
 - CHF (Swiss Fanc)
@@ -758,7 +758,7 @@ Fifty currencies are currently recorded in <a href="https://github.com/InvaCost"
 - DEM (Deutsche Mark)
 - DKK (Danish Krone)
 - ESP (Spanish Peseta)
-- EUR (Euro)
+- EUR (European Union Euro)
 - FJD (Fijian Dollar)
 - FRF (French Franc)
 - GBP (Pound Sterling)
