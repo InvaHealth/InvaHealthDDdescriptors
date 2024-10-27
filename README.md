@@ -732,7 +732,7 @@ Use the script available in the <a href="https://github.com/InvaHealth/currConve
 
 # **Cost_estimate_per_year_original_currency**
 
-Raw cost estimate transformed to a cost estimate per year of the <em>[Period_of_estimation](#period_of_estimation)</em>, obtained by dividing the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> by the number of years between the <em>[Probable_starting_year_completed](#probable_starting_year_completed)</em> and <em>[Probable_ending_year_completed](#probable_ending_year_completed)</em>. Blank cells are those that have no information in at least one of these two previous columns.
+Raw cost estimate transformed to a cost estimate per year of the <em>[Period_of_estimation](#period_of_estimation)</em>, obtained by dividing the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> by the number of years between the <em>[Probable_starting_year_adjusted](#probable_starting_year_adjusted)</em> and <em>[Probable_ending_year_adjusted](#probable_ending_year_adjusted)</em>. Blank cells are those that have no information in at least one of these two previous columns.
 
 # **Cost_estimate_per_year_2023_USD_exchange_rate**
 
