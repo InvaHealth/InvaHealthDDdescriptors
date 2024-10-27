@@ -747,11 +747,11 @@ Cost estimate per year original currency standardised from original <em>[Currenc
 Original currency of the <em>[Raw_cost_estimate_original_currency](#raw_cost_estimate_original_currency)</em> estimate as extracted in the original reference and standardised (when possible) using internationally recognized <a href="https://www.iso.org/fr/iso-4217-currency-codes.html">ISO 4217</a> codes.
 
 Fifty currencies are currently recorded in <a href="https://github.com/InvaCost"><em>InvaCost</em></a>:
-- ARS (Argentine peso), 
-- AUD (Australian Dollars),
-- CAD (Canadian Dollars),
-- CHF (Swiss Fanc),
-- CLP (Chilean Peso),
+- ARS (Argentine peso)
+- AUD (Australian Dollars)
+- CAD (Canadian Dollars)
+- CHF (Swiss Fanc)
+- CLP (Chilean Peso)
 - COL (Colombian Peso)
 - CUP (Cuban Peso)
 - CZK (Czech Crown)
@@ -766,21 +766,21 @@ Fifty currencies are currently recorded in <a href="https://github.com/InvaCost"
 - HRK (Croatian Kuna)
 - INR (Indian Rupee)
 - ISK (Icelandic Crown)
-- JPY (Yen)
+- JPY (Japanese Yen)
 - KES (Kenyan Shilling)
 - LKR (Sri Lankan Rupee)
 - LTL (Lithuanian Litas)
 - MAD (Moroccan Dirhams)
 - MGA (Malagasy Ariary)
 - MXN (Mexican Peso)
-- NGN (Naira)
+- NGN (Nigerian Naira)
 - NLG (Dutch Guilder)
 - NOK (Norwegian Krone)
 - NZD (New Zealand Dollar)
 - PKR (Pakistani Rupee)
-- PLN (Polish Zoty)
+- PLN (Polish Złoty)
 - REA (Brazilian Real)
-- CNY (Yuan Renminbi)
+- CNY (Chinese Yuan Renminbi)
 - RUB (Russian Ruble)
 - SEK (Swedish Krona)
 - SGD (Singapore Dollar)
@@ -791,8 +791,8 @@ Fifty currencies are currently recorded in <a href="https://github.com/InvaCost"
 - UAH (Ukrainian Hryvnia)
 - USD (United States Dollars)
 - UYU (Uruguay New Peso)
-- XAF (CFA Franc BEAC)
-- XOF (CFA Franc BCEAO)
+- XAF (Central African Franc BEAC [Banque des États de l'Afrique Centrale])
+- XOF (Central African Franc BCEAO [Banque Centrale des Etats de l’Afrique de l’Ouest])
 - XPF (Pacific Franc)
 - ZAR (South African Rand)
 - ZWL (Zimbabwean Dollar)
