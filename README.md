@@ -137,7 +137,7 @@ last updated: 2024-10-09
 ## Descriptions
 # **InvaHealth_ID**
 
-Public unique identifier, which is formulated as follows: 'IC_x_y' with 'IC' meaning InvaCost, 'x' being the version number of the database, and 'y' being the sequential number attributed following the order of integration of costs in the database.
+Public unique identifier, which is formulated as follows: 'IC_x_y' with 'IC' meaning InvaCost, 'x' = the version number of the database, and 'y' = the sequential number attributed following the order of integration of costs in the database.
 
 # **Repository**
 
