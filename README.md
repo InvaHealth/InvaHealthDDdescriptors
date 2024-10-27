@@ -263,8 +263,8 @@ The type of habitat where the cost occurred:
 10. <strong>wetland</strong>: sites with permanent or seasonal influence of moisture, ranging from oligotrophic to eutrophic;
 11. <strong>aquatic</strong>: water bodies and streams with submerged and floating plant species;
 12. <strong>human-made</strong>: habitats created by humans or where human factor is the main shaping force - if possible, specified if it corresponds with<br>
-  12a. <em>ruderal</em> (= urban) or<br>
-  12b. <em>agricultural</em> habitats
+  12a. <strong><em>ruderal</em></strong> (= urban) or<br>
+  12b. <strong><em>agricultural</em></strong> habitats
 
 # **urbanArea**
 
